@@ -7,6 +7,9 @@
 
 .ipynb_checkpoints
 .ipynb_checkpoints
+*.gz
+post_with_only_code_snippets_final.csv
+.gitattributes
 
 # IPython
 profile_default
@@ -16,5 +19,3 @@ ipython_config.py
 #   git rm -r .ipynb_checkpoints
 
 # End of httpswww.toptal.comdevelopersgitignoreapijupyternotebooks
-
-
