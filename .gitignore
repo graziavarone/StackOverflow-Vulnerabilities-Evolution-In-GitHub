@@ -10,6 +10,7 @@
 *.gz
 post_with_only_code_snippets_final.csv
 .gitattributes
+code_static_analysis/
 
 # IPython
 profile_default
