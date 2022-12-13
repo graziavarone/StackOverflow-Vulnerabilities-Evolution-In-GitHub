@@ -11,6 +11,11 @@
 post_with_only_code_snippets_final.csv
 .gitattributes
 code_static_analysis/
+.gradle
+data/
+gnn/
+transformer/
+Datasets for VELVET/
 
 # IPython
 profile_default
