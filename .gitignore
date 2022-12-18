@@ -16,10 +16,19 @@ data/
 gnn/
 transformer/
 Datasets for VELVET/
+finetune_gnn/
+finetune_transformer/
+FFmpeg/
+httpd/
+libtiff/
+nginx/
+openssl/
+
 
 # IPython
 profile_default
 ipython_config.py
+__pycache__/
 
 # Remove previous ipynb_checkpoints
 #   git rm -r .ipynb_checkpoints
