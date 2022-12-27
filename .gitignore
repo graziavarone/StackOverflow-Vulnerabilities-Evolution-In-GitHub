@@ -23,6 +23,10 @@ httpd/
 libtiff/
 nginx/
 openssl/
+already_parsed
+snippets_so_input
+w2v_so
+codes_snippets_tokenized.csv
 
 
 # IPython
