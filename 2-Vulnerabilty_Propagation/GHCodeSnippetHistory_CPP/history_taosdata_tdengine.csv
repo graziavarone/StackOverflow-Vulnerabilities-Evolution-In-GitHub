@@ -1,0 +1,337 @@
+,repo,origin_commit,file,code_context,commit_date,line_vuln,code_vuln
+0,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,38,  InsertTest() : res_(nullptr) {}  ^
+1,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,38,  InsertTest() : res_(nullptr) {}  ^
+2,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,38,  InsertTest() : res_(nullptr) {}  ^
+3,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,49,    cxt_.db = (char*)db_.c_str()
+4,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,105,"      SVgDataBlocks* vg = (SVgDataBlocks*)taosArrayGetP(pStmt->pDataBlocks, i)"
+5,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,107,      SSubmitReq* submit = (SSubmitReq*)vg->pData
+6,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,110,      SSubmitBlk* blk = (SSubmitBlk*)(submit + 1)
+7,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,116,        blk = (SSubmitBlk*)(blk->data + ntohl(blk->dataLen))
+8,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,128,"      SVgDataBlocks* vg = (SVgDataBlocks*)taosArrayGetP(pStmt->pDataBlocks, i)"
+9,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,131,      SSubmitReq* submit = (SSubmitReq*)vg->pData
+10,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,135,      SSubmitBlk* blk = (SSubmitBlk*)(submit + 1)
+11,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,138,        blk = (SSubmitBlk*)(blk->data + ntohl(blk->dataLen))
+12,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,111,      for (int32_t i = 0
+13,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,136,      for (int32_t i = 0
+14,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,38,  InsertTest() : res_(nullptr) {}  ^
+15,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,38,  InsertTest() : res_(nullptr) {}  ^
+16,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,38,  InsertTest() : res_(nullptr) {}  ^
+17,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,49,    cxt_.db = (char*)db_.c_str()
+18,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,105,"      SVgDataBlocks* vg = (SVgDataBlocks*)taosArrayGetP(pStmt->pDataBlocks, i)"
+19,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,107,      SSubmitReq* submit = (SSubmitReq*)vg->pData
+20,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,110,      SSubmitBlk* blk = (SSubmitBlk*)(submit + 1)
+21,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,116,        blk = (SSubmitBlk*)(blk->data + ntohl(blk->dataLen))
+22,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,128,"      SVgDataBlocks* vg = (SVgDataBlocks*)taosArrayGetP(pStmt->pDataBlocks, i)"
+23,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,131,      SSubmitReq* submit = (SSubmitReq*)vg->pData
+24,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,135,      SSubmitBlk* blk = (SSubmitBlk*)(submit + 1)
+25,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,138,        blk = (SSubmitBlk*)(blk->data + ntohl(blk->dataLen))
+26,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,111,      for (int32_t i = 0
+27,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,136,      for (int32_t i = 0
+28,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,38,  InsertTest() : res_(nullptr) {}  ^
+29,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,38,  InsertTest() : res_(nullptr) {}  ^
+30,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,38,  InsertTest() : res_(nullptr) {}  ^
+31,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,49,    cxt_.db = (char*)db_.c_str()
+32,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,105,"      SVgDataBlocks* vg = (SVgDataBlocks*)taosArrayGetP(pStmt->pDataBlocks, i)"
+33,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,107,      SSubmitReq* submit = (SSubmitReq*)vg->pData
+34,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,110,      SSubmitBlk* blk = (SSubmitBlk*)(submit + 1)
+35,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,116,        blk = (SSubmitBlk*)(blk->data + ntohl(blk->dataLen))
+36,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,128,"      SVgDataBlocks* vg = (SVgDataBlocks*)taosArrayGetP(pStmt->pDataBlocks, i)"
+37,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,131,      SSubmitReq* submit = (SSubmitReq*)vg->pData
+38,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,135,      SSubmitBlk* blk = (SSubmitBlk*)(submit + 1)
+39,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,138,        blk = (SSubmitBlk*)(blk->data + ntohl(blk->dataLen))
+40,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,111,      for (int32_t i = 0
+41,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,136,      for (int32_t i = 0
+42,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,38,  InsertTest() : res_(nullptr) {}  ^
+43,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,38,  InsertTest() : res_(nullptr) {}  ^
+44,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,38,  InsertTest() : res_(nullptr) {}  ^
+45,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,49,    cxt_.db = (char*)db_.c_str()
+46,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,105,"      SVgDataBlocks* vg = (SVgDataBlocks*)taosArrayGetP(pStmt->pDataBlocks, i)"
+47,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,107,      SSubmitReq* submit = (SSubmitReq*)vg->pData
+48,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,110,      SSubmitBlk* blk = (SSubmitBlk*)(submit + 1)
+49,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,116,        blk = (SSubmitBlk*)(blk->data + ntohl(blk->dataLen))
+50,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,128,"      SVgDataBlocks* vg = (SVgDataBlocks*)taosArrayGetP(pStmt->pDataBlocks, i)"
+51,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,131,      SSubmitReq* submit = (SSubmitReq*)vg->pData
+52,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,135,      SSubmitBlk* blk = (SSubmitBlk*)(submit + 1)
+53,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,138,        blk = (SSubmitBlk*)(blk->data + ntohl(blk->dataLen))
+54,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,111,      for (int32_t i = 0
+55,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,136,      for (int32_t i = 0
+56,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,41,  InsertTest() : res_(nullptr) {}  ^
+57,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,41,  InsertTest() : res_(nullptr) {}  ^
+58,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,41,  InsertTest() : res_(nullptr) {}  ^
+59,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,52,    cxt_.db = (char*)db_.c_str()
+60,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,112,"      SVgDataBlocks* vg = (SVgDataBlocks*)taosArrayGetP(pStmt->pDataBlocks, i)"
+61,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,114,      SSubmitReq* submit = (SSubmitReq*)vg->pData
+62,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,117,      SSubmitBlk* blk = (SSubmitBlk*)(submit + 1)
+63,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,123,        blk = (SSubmitBlk*)(blk->data + ntohl(blk->dataLen))
+64,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,135,"      SVgDataBlocks* vg = (SVgDataBlocks*)taosArrayGetP(pStmt->pDataBlocks, i)"
+65,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,138,      SSubmitReq* submit = (SSubmitReq*)vg->pData
+66,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,142,      SSubmitBlk* blk = (SSubmitBlk*)(submit + 1)
+67,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,145,        blk = (SSubmitBlk*)(blk->data + ntohl(blk->dataLen))
+68,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,118,      for (int32_t i = 0
+69,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,143,      for (int32_t i = 0
+70,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,41,  InsertTest() : res_(nullptr) {}  ^
+71,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,41,  InsertTest() : res_(nullptr) {}  ^
+72,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,41,  InsertTest() : res_(nullptr) {}  ^
+73,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,52,    cxt_.db = (char*)db_.c_str()
+74,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,113,"      SVgDataBlocks* vg = (SVgDataBlocks*)taosArrayGetP(pStmt->pDataBlocks, i)"
+75,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,115,      SSubmitReq* submit = (SSubmitReq*)vg->pData
+76,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,118,      SSubmitBlk* blk = (SSubmitBlk*)(submit + 1)
+77,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,124,        blk = (SSubmitBlk*)(blk->data + ntohl(blk->dataLen))
+78,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,136,"      SVgDataBlocks* vg = (SVgDataBlocks*)taosArrayGetP(pStmt->pDataBlocks, i)"
+79,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,139,      SSubmitReq* submit = (SSubmitReq*)vg->pData
+80,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,143,      SSubmitBlk* blk = (SSubmitBlk*)(submit + 1)
+81,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,146,        blk = (SSubmitBlk*)(blk->data + ntohl(blk->dataLen))
+82,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,119,      for (int32_t i = 0
+83,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,144,      for (int32_t i = 0
+84,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,38,  InsertTest() : res_(nullptr) {}  ^
+85,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,38,  InsertTest() : res_(nullptr) {}  ^
+86,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,38,  InsertTest() : res_(nullptr) {}  ^
+87,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,49,    cxt_.db = (char*)db_.c_str()
+88,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,105,"      SVgDataBlocks* vg = (SVgDataBlocks*)taosArrayGetP(pStmt->pDataBlocks, i)"
+89,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,107,      SSubmitReq* submit = (SSubmitReq*)vg->pData
+90,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,110,      SSubmitBlk* blk = (SSubmitBlk*)(submit + 1)
+91,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,116,        blk = (SSubmitBlk*)(blk->data + ntohl(blk->dataLen))
+92,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,128,"      SVgDataBlocks* vg = (SVgDataBlocks*)taosArrayGetP(pStmt->pDataBlocks, i)"
+93,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,131,      SSubmitReq* submit = (SSubmitReq*)vg->pData
+94,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,135,      SSubmitBlk* blk = (SSubmitBlk*)(submit + 1)
+95,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,138,        blk = (SSubmitBlk*)(blk->data + ntohl(blk->dataLen))
+96,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,111,      for (int32_t i = 0
+97,taosdata/tdengine,1676bfe5cf94678a83646b73b019700fa4a0bf47,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-14 15:43:56 +0800,136,      for (int32_t i = 0
+98,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,38,  InsertTest() : res_(nullptr) {}  ^
+99,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,38,  InsertTest() : res_(nullptr) {}  ^
+100,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,38,  InsertTest() : res_(nullptr) {}  ^
+101,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,49,    cxt_.db = (char*)db_.c_str()
+102,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,105,"      SVgDataBlocks* vg = (SVgDataBlocks*)taosArrayGetP(pStmt->pDataBlocks, i)"
+103,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,107,      SSubmitReq* submit = (SSubmitReq*)vg->pData
+104,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,110,      SSubmitBlk* blk = (SSubmitBlk*)(submit + 1)
+105,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,116,        blk = (SSubmitBlk*)(blk->data + ntohl(blk->dataLen))
+106,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,128,"      SVgDataBlocks* vg = (SVgDataBlocks*)taosArrayGetP(pStmt->pDataBlocks, i)"
+107,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,131,      SSubmitReq* submit = (SSubmitReq*)vg->pData
+108,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,135,      SSubmitBlk* blk = (SSubmitBlk*)(submit + 1)
+109,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,138,        blk = (SSubmitBlk*)(blk->data + ntohl(blk->dataLen))
+110,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,111,      for (int32_t i = 0
+111,taosdata/tdengine,aa9d3ac521028d47c8d0631d5e6e5c53e1bcc259,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-06-28 16:08:34 +0800,136,      for (int32_t i = 0
+112,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,38,  InsertTest() : res_(nullptr) {}  ^
+113,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,38,  InsertTest() : res_(nullptr) {}  ^
+114,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,38,  InsertTest() : res_(nullptr) {}  ^
+115,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,49,    cxt_.db = (char*)db_.c_str()
+116,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,105,"      SVgDataBlocks* vg = (SVgDataBlocks*)taosArrayGetP(pStmt->pDataBlocks, i)"
+117,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,107,      SSubmitReq* submit = (SSubmitReq*)vg->pData
+118,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,110,      SSubmitBlk* blk = (SSubmitBlk*)(submit + 1)
+119,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,116,        blk = (SSubmitBlk*)(blk->data + ntohl(blk->dataLen))
+120,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,128,"      SVgDataBlocks* vg = (SVgDataBlocks*)taosArrayGetP(pStmt->pDataBlocks, i)"
+121,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,131,      SSubmitReq* submit = (SSubmitReq*)vg->pData
+122,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,135,      SSubmitBlk* blk = (SSubmitBlk*)(submit + 1)
+123,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,138,        blk = (SSubmitBlk*)(blk->data + ntohl(blk->dataLen))
+124,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,111,      for (int32_t i = 0
+125,taosdata/tdengine,76c6f47edeff6c22c2ac4f74e83cc7f002a71774,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:50:15 +0800,136,      for (int32_t i = 0
+126,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,38,  InsertTest() : res_(nullptr) {}  ^
+127,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,38,  InsertTest() : res_(nullptr) {}  ^
+128,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,38,  InsertTest() : res_(nullptr) {}  ^
+129,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,49,    cxt_.db = (char*)db_.c_str()
+130,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,105,"      SVgDataBlocks* vg = (SVgDataBlocks*)taosArrayGetP(pStmt->pDataBlocks, i)"
+131,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,107,      SSubmitReq* submit = (SSubmitReq*)vg->pData
+132,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,110,      SSubmitBlk* blk = (SSubmitBlk*)(submit + 1)
+133,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,116,        blk = (SSubmitBlk*)(blk->data + ntohl(blk->dataLen))
+134,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,128,"      SVgDataBlocks* vg = (SVgDataBlocks*)taosArrayGetP(pStmt->pDataBlocks, i)"
+135,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,131,      SSubmitReq* submit = (SSubmitReq*)vg->pData
+136,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,135,      SSubmitBlk* blk = (SSubmitBlk*)(submit + 1)
+137,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,138,        blk = (SSubmitBlk*)(blk->data + ntohl(blk->dataLen))
+138,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,111,      for (int32_t i = 0
+139,taosdata/tdengine,e39da950114eb07ef7febca8b39ca347b67c5b44,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 08:57:09 +0800,136,      for (int32_t i = 0
+140,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,41,  InsertTest() : res_(nullptr) {}  ^
+141,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,41,  InsertTest() : res_(nullptr) {}  ^
+142,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,41,  InsertTest() : res_(nullptr) {}  ^
+143,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,52,    cxt_.db = (char*)db_.c_str()
+144,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,112,"      SVgDataBlocks* vg = (SVgDataBlocks*)taosArrayGetP(pStmt->pDataBlocks, i)"
+145,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,114,      SSubmitReq* submit = (SSubmitReq*)vg->pData
+146,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,117,      SSubmitBlk* blk = (SSubmitBlk*)(submit + 1)
+147,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,123,        blk = (SSubmitBlk*)(blk->data + ntohl(blk->dataLen))
+148,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,135,"      SVgDataBlocks* vg = (SVgDataBlocks*)taosArrayGetP(pStmt->pDataBlocks, i)"
+149,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,138,      SSubmitReq* submit = (SSubmitReq*)vg->pData
+150,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,142,      SSubmitBlk* blk = (SSubmitBlk*)(submit + 1)
+151,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,145,        blk = (SSubmitBlk*)(blk->data + ntohl(blk->dataLen))
+152,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,118,      for (int32_t i = 0
+153,taosdata/tdengine,8fc86a31d0011761ddc7e365bda36ab62e2d63a3,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-04 20:53:43 +0800,143,      for (int32_t i = 0
+154,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,41,  InsertTest() : res_(nullptr) {}  ^
+155,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,41,  InsertTest() : res_(nullptr) {}  ^
+156,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,41,  InsertTest() : res_(nullptr) {}  ^
+157,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,52,    cxt_.db = (char*)db_.c_str()
+158,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,113,"      SVgDataBlocks* vg = (SVgDataBlocks*)taosArrayGetP(pStmt->pDataBlocks, i)"
+159,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,115,      SSubmitReq* submit = (SSubmitReq*)vg->pData
+160,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,118,      SSubmitBlk* blk = (SSubmitBlk*)(submit + 1)
+161,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,124,        blk = (SSubmitBlk*)(blk->data + ntohl(blk->dataLen))
+162,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,136,"      SVgDataBlocks* vg = (SVgDataBlocks*)taosArrayGetP(pStmt->pDataBlocks, i)"
+163,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,139,      SSubmitReq* submit = (SSubmitReq*)vg->pData
+164,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,143,      SSubmitBlk* blk = (SSubmitBlk*)(submit + 1)
+165,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,146,        blk = (SSubmitBlk*)(blk->data + ntohl(blk->dataLen))
+166,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,119,      for (int32_t i = 0
+167,taosdata/tdengine,555a575c584282c4826c593e2762a508da463652,source/libs/parser/test/parInsertTest.cpp,"  InsertTest() : res_(nullptr) {}
+",2022-08-12 10:46:55 +0800,144,      for (int32_t i = 0

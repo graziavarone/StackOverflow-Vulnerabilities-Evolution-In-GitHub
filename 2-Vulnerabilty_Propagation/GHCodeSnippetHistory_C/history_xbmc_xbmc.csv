@@ -1,0 +1,463 @@
+,repo,origin_commit,file,code_context,commit_date,line_vuln,code_vuln
+0,xbmc/xbmc,2e9c6bd4f13271bfd8a23f51ec37eb074d4a78d8,lib/nosefart/src/memguard.c,"void mem_checkleaks(void)
+{
+#ifdef NOFRENDO_DEBUG
+   int i;
+
+   if (FALSE == mem_debug)
+      return;
+
+   if (mem_blockcount)
+   {
+      log_printf(""memory leak - %d unfreed block%s\n\n"", mem_blockcount, 
+         mem_blockcount == 1 ? """" : ""s"");
+
+      for (i = 0; i < MAX_BLOCKS; i++)
+      {
+         if (mem_record[i].block_addr)
+         {
+            log_printf(""addr: 0x%08X, size: %d, line %d of %s%s\n"",
+                    (uint32) mem_record[i].block_addr,
+                    mem_record[i].block_size,
+                    mem_record[i].line_num,
+                    mem_record[i].file_name,
+                    (FALSE == mem_checkguardblock(mem_record[i].block_addr, GUARD_LENGTH))
+                    ? "" -- block corrupt"" : """");
+         }
+      }
+   }
+   else
+      log_printf(""no memory leaks\n"");
+#endif
+}
+",2010-04-23 20:30:14 +0000,302,      free(*data)
+1,xbmc/xbmc,2e9c6bd4f13271bfd8a23f51ec37eb074d4a78d8,lib/nosefart/src/memguard.c,"void mem_checkleaks(void)
+{
+#ifdef NOFRENDO_DEBUG
+   int i;
+
+   if (FALSE == mem_debug)
+      return;
+
+   if (mem_blockcount)
+   {
+      log_printf(""memory leak - %d unfreed block%s\n\n"", mem_blockcount, 
+         mem_blockcount == 1 ? """" : ""s"");
+
+      for (i = 0; i < MAX_BLOCKS; i++)
+      {
+         if (mem_record[i].block_addr)
+         {
+            log_printf(""addr: 0x%08X, size: %d, line %d of %s%s\n"",
+                    (uint32) mem_record[i].block_addr,
+                    mem_record[i].block_size,
+                    mem_record[i].line_num,
+                    mem_record[i].file_name,
+                    (FALSE == mem_checkguardblock(mem_record[i].block_addr, GUARD_LENGTH))
+                    ? "" -- block corrupt"" : """");
+         }
+      }
+   }
+   else
+      log_printf(""no memory leaks\n"");
+#endif
+}
+",2010-04-23 20:30:14 +0000,304,   *data = NULL
+2,xbmc/xbmc,2e9c6bd4f13271bfd8a23f51ec37eb074d4a78d8,lib/nosefart/src/memguard.c,"void mem_checkleaks(void)
+{
+#ifdef NOFRENDO_DEBUG
+   int i;
+
+   if (FALSE == mem_debug)
+      return;
+
+   if (mem_blockcount)
+   {
+      log_printf(""memory leak - %d unfreed block%s\n\n"", mem_blockcount, 
+         mem_blockcount == 1 ? """" : ""s"");
+
+      for (i = 0; i < MAX_BLOCKS; i++)
+      {
+         if (mem_record[i].block_addr)
+         {
+            log_printf(""addr: 0x%08X, size: %d, line %d of %s%s\n"",
+                    (uint32) mem_record[i].block_addr,
+                    mem_record[i].block_size,
+                    mem_record[i].line_num,
+                    mem_record[i].file_name,
+                    (FALSE == mem_checkguardblock(mem_record[i].block_addr, GUARD_LENGTH))
+                    ? "" -- block corrupt"" : """");
+         }
+      }
+   }
+   else
+      log_printf(""no memory leaks\n"");
+#endif
+}
+",2010-04-23 20:30:14 +0000,47,   void  *block_addr
+3,xbmc/xbmc,2e9c6bd4f13271bfd8a23f51ec37eb074d4a78d8,lib/nosefart/src/memguard.c,"void mem_checkleaks(void)
+{
+#ifdef NOFRENDO_DEBUG
+   int i;
+
+   if (FALSE == mem_debug)
+      return;
+
+   if (mem_blockcount)
+   {
+      log_printf(""memory leak - %d unfreed block%s\n\n"", mem_blockcount, 
+         mem_blockcount == 1 ? """" : ""s"");
+
+      for (i = 0; i < MAX_BLOCKS; i++)
+      {
+         if (mem_record[i].block_addr)
+         {
+            log_printf(""addr: 0x%08X, size: %d, line %d of %s%s\n"",
+                    (uint32) mem_record[i].block_addr,
+                    mem_record[i].block_size,
+                    mem_record[i].line_num,
+                    mem_record[i].file_name,
+                    (FALSE == mem_checkguardblock(mem_record[i].block_addr, GUARD_LENGTH))
+                    ? "" -- block corrupt"" : """");
+         }
+      }
+   }
+   else
+      log_printf(""no memory leaks\n"");
+#endif
+}
+",2010-04-23 20:30:14 +0000,48,   int   block_size
+4,xbmc/xbmc,2e9c6bd4f13271bfd8a23f51ec37eb074d4a78d8,lib/nosefart/src/memguard.c,"void mem_checkleaks(void)
+{
+#ifdef NOFRENDO_DEBUG
+   int i;
+
+   if (FALSE == mem_debug)
+      return;
+
+   if (mem_blockcount)
+   {
+      log_printf(""memory leak - %d unfreed block%s\n\n"", mem_blockcount, 
+         mem_blockcount == 1 ? """" : ""s"");
+
+      for (i = 0; i < MAX_BLOCKS; i++)
+      {
+         if (mem_record[i].block_addr)
+         {
+            log_printf(""addr: 0x%08X, size: %d, line %d of %s%s\n"",
+                    (uint32) mem_record[i].block_addr,
+                    mem_record[i].block_size,
+                    mem_record[i].line_num,
+                    mem_record[i].file_name,
+                    (FALSE == mem_checkguardblock(mem_record[i].block_addr, GUARD_LENGTH))
+                    ? "" -- block corrupt"" : """");
+         }
+      }
+   }
+   else
+      log_printf(""no memory leaks\n"");
+#endif
+}
+",2010-04-23 20:30:14 +0000,49,   char  *file_name
+5,xbmc/xbmc,2e9c6bd4f13271bfd8a23f51ec37eb074d4a78d8,lib/nosefart/src/memguard.c,"void mem_checkleaks(void)
+{
+#ifdef NOFRENDO_DEBUG
+   int i;
+
+   if (FALSE == mem_debug)
+      return;
+
+   if (mem_blockcount)
+   {
+      log_printf(""memory leak - %d unfreed block%s\n\n"", mem_blockcount, 
+         mem_blockcount == 1 ? """" : ""s"");
+
+      for (i = 0; i < MAX_BLOCKS; i++)
+      {
+         if (mem_record[i].block_addr)
+         {
+            log_printf(""addr: 0x%08X, size: %d, line %d of %s%s\n"",
+                    (uint32) mem_record[i].block_addr,
+                    mem_record[i].block_size,
+                    mem_record[i].line_num,
+                    mem_record[i].file_name,
+                    (FALSE == mem_checkguardblock(mem_record[i].block_addr, GUARD_LENGTH))
+                    ? "" -- block corrupt"" : """");
+         }
+      }
+   }
+   else
+      log_printf(""no memory leaks\n"");
+#endif
+}
+",2010-04-23 20:30:14 +0000,50,   int   line_num
+6,xbmc/xbmc,2e9c6bd4f13271bfd8a23f51ec37eb074d4a78d8,lib/nosefart/src/memguard.c,"void mem_checkleaks(void)
+{
+#ifdef NOFRENDO_DEBUG
+   int i;
+
+   if (FALSE == mem_debug)
+      return;
+
+   if (mem_blockcount)
+   {
+      log_printf(""memory leak - %d unfreed block%s\n\n"", mem_blockcount, 
+         mem_blockcount == 1 ? """" : ""s"");
+
+      for (i = 0; i < MAX_BLOCKS; i++)
+      {
+         if (mem_record[i].block_addr)
+         {
+            log_printf(""addr: 0x%08X, size: %d, line %d of %s%s\n"",
+                    (uint32) mem_record[i].block_addr,
+                    mem_record[i].block_size,
+                    mem_record[i].line_num,
+                    mem_record[i].file_name,
+                    (FALSE == mem_checkguardblock(mem_record[i].block_addr, GUARD_LENGTH))
+                    ? "" -- block corrupt"" : """");
+         }
+      }
+   }
+   else
+      log_printf(""no memory leaks\n"");
+#endif
+}
+",2010-04-23 20:30:14 +0000,311,   int i
+7,xbmc/xbmc,c51b1189e3d5353e842991f5859ddcea0f73e426,lib/nosefart/src/memguard.c,"/* check for orphaned memory handles */
+ void mem_checkleaks(void)
+void mem_checkleaks(void)
+{
+#ifdef NOFRENDO_DEBUG
+   int i;
+
+   if (FALSE == mem_debug)
+      return;
+
+   if (mem_blockcount)
+   {
+      log_printf(""memory leak - %d unfreed block%s\n\n"", mem_blockcount, 
+         mem_blockcount == 1 ? """" : ""s"");
+
+      for (i = 0; i < MAX_BLOCKS; i++)
+      {
+         if (mem_record[i].block_addr)
+         {
+            log_printf(""addr: 0x%08X, size: %d, line %d of %s%s\n"",
+                    (uint32) mem_record[i].block_addr,
+                    mem_record[i].block_size,
+                    mem_record[i].line_num,
+                    mem_record[i].file_name,
+                    (FALSE == mem_checkguardblock(mem_record[i].block_addr, GUARD_LENGTH))
+                    ? "" -- block corrupt"" : """");
+         }
+      }
+   }
+   else
+      log_printf(""no memory leaks\n"");
+#endif
+}
+",2011-01-24 16:05:21 -0500,302,      free(*data)
+8,xbmc/xbmc,c51b1189e3d5353e842991f5859ddcea0f73e426,lib/nosefart/src/memguard.c,"/* check for orphaned memory handles */
+ void mem_checkleaks(void)
+void mem_checkleaks(void)
+{
+#ifdef NOFRENDO_DEBUG
+   int i;
+
+   if (FALSE == mem_debug)
+      return;
+
+   if (mem_blockcount)
+   {
+      log_printf(""memory leak - %d unfreed block%s\n\n"", mem_blockcount, 
+         mem_blockcount == 1 ? """" : ""s"");
+
+      for (i = 0; i < MAX_BLOCKS; i++)
+      {
+         if (mem_record[i].block_addr)
+         {
+            log_printf(""addr: 0x%08X, size: %d, line %d of %s%s\n"",
+                    (uint32) mem_record[i].block_addr,
+                    mem_record[i].block_size,
+                    mem_record[i].line_num,
+                    mem_record[i].file_name,
+                    (FALSE == mem_checkguardblock(mem_record[i].block_addr, GUARD_LENGTH))
+                    ? "" -- block corrupt"" : """");
+         }
+      }
+   }
+   else
+      log_printf(""no memory leaks\n"");
+#endif
+}
+",2011-01-24 16:05:21 -0500,304,   *data = NULL
+9,xbmc/xbmc,c51b1189e3d5353e842991f5859ddcea0f73e426,lib/nosefart/src/memguard.c,"/* check for orphaned memory handles */
+ void mem_checkleaks(void)
+void mem_checkleaks(void)
+{
+#ifdef NOFRENDO_DEBUG
+   int i;
+
+   if (FALSE == mem_debug)
+      return;
+
+   if (mem_blockcount)
+   {
+      log_printf(""memory leak - %d unfreed block%s\n\n"", mem_blockcount, 
+         mem_blockcount == 1 ? """" : ""s"");
+
+      for (i = 0; i < MAX_BLOCKS; i++)
+      {
+         if (mem_record[i].block_addr)
+         {
+            log_printf(""addr: 0x%08X, size: %d, line %d of %s%s\n"",
+                    (uint32) mem_record[i].block_addr,
+                    mem_record[i].block_size,
+                    mem_record[i].line_num,
+                    mem_record[i].file_name,
+                    (FALSE == mem_checkguardblock(mem_record[i].block_addr, GUARD_LENGTH))
+                    ? "" -- block corrupt"" : """");
+         }
+      }
+   }
+   else
+      log_printf(""no memory leaks\n"");
+#endif
+}
+",2011-01-24 16:05:21 -0500,47,   void  *block_addr
+10,xbmc/xbmc,c51b1189e3d5353e842991f5859ddcea0f73e426,lib/nosefart/src/memguard.c,"/* check for orphaned memory handles */
+ void mem_checkleaks(void)
+void mem_checkleaks(void)
+{
+#ifdef NOFRENDO_DEBUG
+   int i;
+
+   if (FALSE == mem_debug)
+      return;
+
+   if (mem_blockcount)
+   {
+      log_printf(""memory leak - %d unfreed block%s\n\n"", mem_blockcount, 
+         mem_blockcount == 1 ? """" : ""s"");
+
+      for (i = 0; i < MAX_BLOCKS; i++)
+      {
+         if (mem_record[i].block_addr)
+         {
+            log_printf(""addr: 0x%08X, size: %d, line %d of %s%s\n"",
+                    (uint32) mem_record[i].block_addr,
+                    mem_record[i].block_size,
+                    mem_record[i].line_num,
+                    mem_record[i].file_name,
+                    (FALSE == mem_checkguardblock(mem_record[i].block_addr, GUARD_LENGTH))
+                    ? "" -- block corrupt"" : """");
+         }
+      }
+   }
+   else
+      log_printf(""no memory leaks\n"");
+#endif
+}
+",2011-01-24 16:05:21 -0500,48,   int   block_size
+11,xbmc/xbmc,c51b1189e3d5353e842991f5859ddcea0f73e426,lib/nosefart/src/memguard.c,"/* check for orphaned memory handles */
+ void mem_checkleaks(void)
+void mem_checkleaks(void)
+{
+#ifdef NOFRENDO_DEBUG
+   int i;
+
+   if (FALSE == mem_debug)
+      return;
+
+   if (mem_blockcount)
+   {
+      log_printf(""memory leak - %d unfreed block%s\n\n"", mem_blockcount, 
+         mem_blockcount == 1 ? """" : ""s"");
+
+      for (i = 0; i < MAX_BLOCKS; i++)
+      {
+         if (mem_record[i].block_addr)
+         {
+            log_printf(""addr: 0x%08X, size: %d, line %d of %s%s\n"",
+                    (uint32) mem_record[i].block_addr,
+                    mem_record[i].block_size,
+                    mem_record[i].line_num,
+                    mem_record[i].file_name,
+                    (FALSE == mem_checkguardblock(mem_record[i].block_addr, GUARD_LENGTH))
+                    ? "" -- block corrupt"" : """");
+         }
+      }
+   }
+   else
+      log_printf(""no memory leaks\n"");
+#endif
+}
+",2011-01-24 16:05:21 -0500,49,   char  *file_name
+12,xbmc/xbmc,c51b1189e3d5353e842991f5859ddcea0f73e426,lib/nosefart/src/memguard.c,"/* check for orphaned memory handles */
+ void mem_checkleaks(void)
+void mem_checkleaks(void)
+{
+#ifdef NOFRENDO_DEBUG
+   int i;
+
+   if (FALSE == mem_debug)
+      return;
+
+   if (mem_blockcount)
+   {
+      log_printf(""memory leak - %d unfreed block%s\n\n"", mem_blockcount, 
+         mem_blockcount == 1 ? """" : ""s"");
+
+      for (i = 0; i < MAX_BLOCKS; i++)
+      {
+         if (mem_record[i].block_addr)
+         {
+            log_printf(""addr: 0x%08X, size: %d, line %d of %s%s\n"",
+                    (uint32) mem_record[i].block_addr,
+                    mem_record[i].block_size,
+                    mem_record[i].line_num,
+                    mem_record[i].file_name,
+                    (FALSE == mem_checkguardblock(mem_record[i].block_addr, GUARD_LENGTH))
+                    ? "" -- block corrupt"" : """");
+         }
+      }
+   }
+   else
+      log_printf(""no memory leaks\n"");
+#endif
+}
+",2011-01-24 16:05:21 -0500,50,   int   line_num
+13,xbmc/xbmc,c51b1189e3d5353e842991f5859ddcea0f73e426,lib/nosefart/src/memguard.c,"/* check for orphaned memory handles */
+ void mem_checkleaks(void)
+void mem_checkleaks(void)
+{
+#ifdef NOFRENDO_DEBUG
+   int i;
+
+   if (FALSE == mem_debug)
+      return;
+
+   if (mem_blockcount)
+   {
+      log_printf(""memory leak - %d unfreed block%s\n\n"", mem_blockcount, 
+         mem_blockcount == 1 ? """" : ""s"");
+
+      for (i = 0; i < MAX_BLOCKS; i++)
+      {
+         if (mem_record[i].block_addr)
+         {
+            log_printf(""addr: 0x%08X, size: %d, line %d of %s%s\n"",
+                    (uint32) mem_record[i].block_addr,
+                    mem_record[i].block_size,
+                    mem_record[i].line_num,
+                    mem_record[i].file_name,
+                    (FALSE == mem_checkguardblock(mem_record[i].block_addr, GUARD_LENGTH))
+                    ? "" -- block corrupt"" : """");
+         }
+      }
+   }
+   else
+      log_printf(""no memory leaks\n"");
+#endif
+}
+",2011-01-24 16:05:21 -0500,311,   int i

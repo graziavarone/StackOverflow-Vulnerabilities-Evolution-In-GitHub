@@ -1,0 +1,28 @@
+,repo,origin_commit,file,code_context,commit_date,line_vuln,code_vuln
+0,google/leveldb,4671a695fca3a8fb00cdf4609cd8238cf12ed13d,table/iterator.cc,"  EmptyIterator(const Status& s) : status_(s) { }
+",2011-03-30 18:35:40 +0000,45,  EmptyIterator(const Status& s) : status_(s) { }  ^
+1,google/leveldb,f779e7a5d89f853fc5224f9eb8103ca2b8f2f555,table/iterator.cc,"  EmptyIterator(const Status& s) : status_(s) { }
+",2011-04-12 19:38:58 +0000,45,  EmptyIterator(const Status& s) : status_(s) { }  ^
+2,google/leveldb,b409afe968b6917574ec08e02c4bf6e6f722e3ca,table/iterator.cc,"  EmptyIterator(const Status& s) : status_(s) { }
+",2011-04-18 23:15:58 +0000,45,  EmptyIterator(const Status& s) : status_(s) { }  ^
+3,google/leveldb,b743906eeabc925f3e824d91a9747012bf249e2f,leveldb/table/iterator.cc,"  EmptyIterator(const Status& s) : status_(s) { }
+",2011-04-19 23:01:25 +0000,45,  EmptyIterator(const Status& s) : status_(s) { }  ^
+4,google/leveldb,69c6d38342a1fab5f7f2921aa2e9c0e60ba90e35,table/iterator.cc,"namespace {
+ class EmptyIterator : public Iterator {
+  public:
+   EmptyIterator(const Status& s) : status_(s) { }
+  EmptyIterator(const Status& s) : status_(s) { }
+",2011-04-19 23:11:15 +0000,45,  EmptyIterator(const Status& s) : status_(s) { }  ^
+5,google/leveldb,740d8b3d009462eed28a94ea516d667e735b0dfc,table/iterator.cc,"  EmptyIterator(const Status& s) : status_(s) { }
+",2011-05-28 00:53:58 +0000,44,  EmptyIterator(const Status& s) : status_(s) { }  ^
+6,google/leveldb,36a5f8ed7f9fb3373236d5eace4f5fea369856ee,table/iterator.cc,"  EmptyIterator(const Status& s) : status_(s) { }
+",2011-10-31 17:22:06 +0000,44,  EmptyIterator(const Status& s) : status_(s) { }  ^
+7,google/leveldb,09217fd0677a4fd9713c7a4d774c494a7d3c1f15,table/iterator.cc,"  EmptyIterator(const Status& s) : status_(s) { }
+",2018-04-10 16:26:43 -0700,44,  EmptyIterator(const Status& s) : status_(s) { }  ^
+8,google/leveldb,6caf73ad9dae0ee91873bcb39554537b85163770,table/iterator.cc,"
+ 
+ 
+ 
+  EmptyIterator(const Status& s) : status_(s) { }
+",2018-06-04 17:24:44 -0700,45,  EmptyIterator(const Status& s) : status_(s) { }  ^
+9,google/leveldb,297e66afc1dda3f3d7a7cc2022030164c302cb7a,table/iterator.cc,,2019-05-02 19:04:50 -0700,45,  EmptyIterator(const Status& s) : status_(s) {}  ^

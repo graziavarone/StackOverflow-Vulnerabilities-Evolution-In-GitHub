@@ -1,0 +1,73 @@
+,repo,origin_commit,file,code_context,commit_date,line_vuln,code_vuln
+0,godotengine/godot,d95794ec8a7c362b06a9cf080e2554ef77adb667,scene/resources/texture.cpp,"void ImageTexture::create(int p_width, int p_height, Image::Format p_format, uint32_t p_flags) {
+
+	flags = p_flags;
+	VisualServer::get_singleton()->texture_allocate(texture, p_width, p_height, p_format, p_flags);
+	format = p_format;
+	w = p_width;
+	h = p_height;
+}
+",2020-02-11 11:53:26 +0100,1005," GDCLASS(PlaceholderTexture2D, Texture2D) ^"
+1,godotengine/godot,d95794ec8a7c362b06a9cf080e2554ef77adb667,scene/resources/texture.cpp,"void ImageTexture::create(int p_width, int p_height, Image::Format p_format, uint32_t p_flags) {
+
+	flags = p_flags;
+	VisualServer::get_singleton()->texture_allocate(texture, p_width, p_height, p_format, p_flags);
+	format = p_format;
+	w = p_width;
+	h = p_height;
+}
+",2020-02-11 11:53:26 +0100,1005," GDCLASS(PlaceholderTexture2D, Texture2D) ^"
+2,godotengine/godot,d95794ec8a7c362b06a9cf080e2554ef77adb667,scene/resources/texture.cpp,"void ImageTexture::create(int p_width, int p_height, Image::Format p_format, uint32_t p_flags) {
+
+	flags = p_flags;
+	VisualServer::get_singleton()->texture_allocate(texture, p_width, p_height, p_format, p_flags);
+	format = p_format;
+	w = p_width;
+	h = p_height;
+}
+",2020-02-11 11:53:26 +0100,1005," GDCLASS(PlaceholderTexture2D, Texture2D) ^"
+3,godotengine/godot,d95794ec8a7c362b06a9cf080e2554ef77adb667,scene/resources/texture.cpp,"void ImageTexture::create(int p_width, int p_height, Image::Format p_format, uint32_t p_flags) {
+
+	flags = p_flags;
+	VisualServer::get_singleton()->texture_allocate(texture, p_width, p_height, p_format, p_flags);
+	format = p_format;
+	w = p_width;
+	h = p_height;
+}
+",2020-02-11 11:53:26 +0100,1005," GDCLASS(PlaceholderTexture2D, Texture2D) ^"
+4,godotengine/godot,d95794ec8a7c362b06a9cf080e2554ef77adb667,scene/resources/texture.cpp,"void ImageTexture::create(int p_width, int p_height, Image::Format p_format, uint32_t p_flags) {
+
+	flags = p_flags;
+	VisualServer::get_singleton()->texture_allocate(texture, p_width, p_height, p_format, p_flags);
+	format = p_format;
+	w = p_width;
+	h = p_height;
+}
+",2020-02-11 11:53:26 +0100,1005," GDCLASS(PlaceholderTexture2D, Texture2D) ^"
+5,godotengine/godot,d95794ec8a7c362b06a9cf080e2554ef77adb667,scene/resources/texture.cpp,"void ImageTexture::create(int p_width, int p_height, Image::Format p_format, uint32_t p_flags) {
+
+	flags = p_flags;
+	VisualServer::get_singleton()->texture_allocate(texture, p_width, p_height, p_format, p_flags);
+	format = p_format;
+	w = p_width;
+	h = p_height;
+}
+",2020-02-11 11:53:26 +0100,1005," GDCLASS(PlaceholderTexture2D, Texture2D) ^"
+6,godotengine/godot,d95794ec8a7c362b06a9cf080e2554ef77adb667,scene/resources/texture.cpp,"void ImageTexture::create(int p_width, int p_height, Image::Format p_format, uint32_t p_flags) {
+
+	flags = p_flags;
+	VisualServer::get_singleton()->texture_allocate(texture, p_width, p_height, p_format, p_flags);
+	format = p_format;
+	w = p_width;
+	h = p_height;
+}
+",2020-02-11 11:53:26 +0100,1005," GDCLASS(PlaceholderTexture2D, Texture2D) ^"
+7,godotengine/godot,d95794ec8a7c362b06a9cf080e2554ef77adb667,scene/resources/texture.cpp,"void ImageTexture::create(int p_width, int p_height, Image::Format p_format, uint32_t p_flags) {
+
+	flags = p_flags;
+	VisualServer::get_singleton()->texture_allocate(texture, p_width, p_height, p_format, p_flags);
+	format = p_format;
+	w = p_width;
+	h = p_height;
+}
+",2020-02-11 11:53:26 +0100,1005," GDCLASS(PlaceholderTexture2D, Texture2D) ^"

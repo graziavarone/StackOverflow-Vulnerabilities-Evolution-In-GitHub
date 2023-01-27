@@ -27,7 +27,12 @@ already_parsed
 snippets_so_input
 w2v_so
 codes_snippets_tokenized.csv
-
+to_check
+to_check_functions.xml
+to_check_functions-blind.xml
+static_analysis.pkl
+code_snippets_static_analysis_v2.csv
+history_ossrs_srs.csv
 
 # IPython
 profile_default

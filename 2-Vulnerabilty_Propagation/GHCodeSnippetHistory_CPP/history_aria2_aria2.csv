@@ -1,0 +1,4240 @@
+,repo,origin_commit,file,code_context,commit_date,line_vuln,code_vuln
+0,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,51,  OpenSSLTLSSession(OpenSSLTLSContext* tlsContext)
+1,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+2,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,118,  SocketCore(int sockType = SOCK_STREAM)
+3,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+4,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+5,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,"  virtual bool addCredentialFile(const std::string& certfile,               ^"
+6,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,60,  virtual bool addSystemTrustedCACerts() CXX11_OVERRIDE
+7,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool addTrustedCACertFile(const std::string& certfile) CXX11_OVERRIDE
+8,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool good() const CXX11_OVERRIDE
+9,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,67,  virtual TLSSessionSide getSide() const CXX11_OVERRIDE { return side_
+10,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,69,  virtual bool getVerifyPeer() const CXX11_OVERRIDE { return verifyPeer_
+11,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,70,  virtual void setVerifyPeer(bool verify) CXX11_OVERRIDE               ^
+12,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,53,  virtual int init(sock_t sockfd) CXX11_OVERRIDE
+13,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,54,  virtual int setSNIHostname(const std::string& hostname) CXX11_OVERRIDE
+14,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,55,  virtual int closeConnection() CXX11_OVERRIDE
+15,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,  virtual int checkDirection() CXX11_OVERRIDE
+16,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual ssize_t writeData(const void* data, size_t len) CXX11_OVERRIDE"
+17,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual ssize_t readData(void* data, size_t len) CXX11_OVERRIDE"
+18,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,59,"  virtual int tlsConnect(const std::string& hostname, TLSVersion& version,              ^"
+19,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,61,  virtual int tlsAccept(TLSVersion& version) CXX11_OVERRIDE
+20,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,62,  virtual std::string getLastErrorString() CXX11_OVERRIDE
+21,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual size_t getRecvBufferedLength() CXX11_OVERRIDE { return 0
+22,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,51,  OpenSSLTLSSession(OpenSSLTLSContext* tlsContext)
+23,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+24,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,118,  SocketCore(int sockType = SOCK_STREAM)
+25,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+26,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+27,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,"  virtual bool addCredentialFile(const std::string& certfile,               ^"
+28,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,60,  virtual bool addSystemTrustedCACerts() CXX11_OVERRIDE
+29,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool addTrustedCACertFile(const std::string& certfile) CXX11_OVERRIDE
+30,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool good() const CXX11_OVERRIDE
+31,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,67,  virtual TLSSessionSide getSide() const CXX11_OVERRIDE { return side_
+32,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,69,  virtual bool getVerifyPeer() const CXX11_OVERRIDE { return verifyPeer_
+33,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,70,  virtual void setVerifyPeer(bool verify) CXX11_OVERRIDE               ^
+34,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,53,  virtual int init(sock_t sockfd) CXX11_OVERRIDE
+35,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,54,  virtual int setSNIHostname(const std::string& hostname) CXX11_OVERRIDE
+36,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,55,  virtual int closeConnection() CXX11_OVERRIDE
+37,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,  virtual int checkDirection() CXX11_OVERRIDE
+38,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual ssize_t writeData(const void* data, size_t len) CXX11_OVERRIDE"
+39,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual ssize_t readData(void* data, size_t len) CXX11_OVERRIDE"
+40,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,59,"  virtual int tlsConnect(const std::string& hostname, TLSVersion& version,              ^"
+41,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,61,  virtual int tlsAccept(TLSVersion& version) CXX11_OVERRIDE
+42,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,62,  virtual std::string getLastErrorString() CXX11_OVERRIDE
+43,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual size_t getRecvBufferedLength() CXX11_OVERRIDE { return 0
+44,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,51,  OpenSSLTLSSession(OpenSSLTLSContext* tlsContext)
+45,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+46,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,118,  SocketCore(int sockType = SOCK_STREAM)
+47,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+48,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+49,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,"  virtual bool addCredentialFile(const std::string& certfile,               ^"
+50,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,60,  virtual bool addSystemTrustedCACerts() CXX11_OVERRIDE
+51,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool addTrustedCACertFile(const std::string& certfile) CXX11_OVERRIDE
+52,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool good() const CXX11_OVERRIDE
+53,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,67,  virtual TLSSessionSide getSide() const CXX11_OVERRIDE { return side_
+54,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,69,  virtual bool getVerifyPeer() const CXX11_OVERRIDE { return verifyPeer_
+55,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,70,  virtual void setVerifyPeer(bool verify) CXX11_OVERRIDE               ^
+56,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,53,  virtual int init(sock_t sockfd) CXX11_OVERRIDE
+57,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,54,  virtual int setSNIHostname(const std::string& hostname) CXX11_OVERRIDE
+58,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,55,  virtual int closeConnection() CXX11_OVERRIDE
+59,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,  virtual int checkDirection() CXX11_OVERRIDE
+60,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual ssize_t writeData(const void* data, size_t len) CXX11_OVERRIDE"
+61,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual ssize_t readData(void* data, size_t len) CXX11_OVERRIDE"
+62,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,59,"  virtual int tlsConnect(const std::string& hostname, TLSVersion& version,              ^"
+63,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,61,  virtual int tlsAccept(TLSVersion& version) CXX11_OVERRIDE
+64,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,62,  virtual std::string getLastErrorString() CXX11_OVERRIDE
+65,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual size_t getRecvBufferedLength() CXX11_OVERRIDE { return 0
+66,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,51,  OpenSSLTLSSession(OpenSSLTLSContext* tlsContext)
+67,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+68,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,118,  SocketCore(int sockType = SOCK_STREAM)
+69,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+70,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+71,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,"  virtual bool addCredentialFile(const std::string& certfile,               ^"
+72,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,60,  virtual bool addSystemTrustedCACerts() CXX11_OVERRIDE
+73,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool addTrustedCACertFile(const std::string& certfile) CXX11_OVERRIDE
+74,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool good() const CXX11_OVERRIDE
+75,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,67,  virtual TLSSessionSide getSide() const CXX11_OVERRIDE { return side_
+76,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,69,  virtual bool getVerifyPeer() const CXX11_OVERRIDE { return verifyPeer_
+77,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,70,  virtual void setVerifyPeer(bool verify) CXX11_OVERRIDE               ^
+78,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,53,  virtual int init(sock_t sockfd) CXX11_OVERRIDE
+79,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,54,  virtual int setSNIHostname(const std::string& hostname) CXX11_OVERRIDE
+80,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,55,  virtual int closeConnection() CXX11_OVERRIDE
+81,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,  virtual int checkDirection() CXX11_OVERRIDE
+82,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual ssize_t writeData(const void* data, size_t len) CXX11_OVERRIDE"
+83,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual ssize_t readData(void* data, size_t len) CXX11_OVERRIDE"
+84,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,59,"  virtual int tlsConnect(const std::string& hostname, TLSVersion& version,              ^"
+85,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,61,  virtual int tlsAccept(TLSVersion& version) CXX11_OVERRIDE
+86,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,62,  virtual std::string getLastErrorString() CXX11_OVERRIDE
+87,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual size_t getRecvBufferedLength() CXX11_OVERRIDE { return 0
+88,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,51,  OpenSSLTLSSession(OpenSSLTLSContext* tlsContext)
+89,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+90,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,118,  SocketCore(int sockType = SOCK_STREAM)
+91,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+92,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+93,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,"  virtual bool addCredentialFile(const std::string& certfile,               ^"
+94,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,60,  virtual bool addSystemTrustedCACerts() CXX11_OVERRIDE
+95,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool addTrustedCACertFile(const std::string& certfile) CXX11_OVERRIDE
+96,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool good() const CXX11_OVERRIDE
+97,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,67,  virtual TLSSessionSide getSide() const CXX11_OVERRIDE { return side_
+98,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,69,  virtual bool getVerifyPeer() const CXX11_OVERRIDE { return verifyPeer_
+99,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,70,  virtual void setVerifyPeer(bool verify) CXX11_OVERRIDE               ^
+100,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,53,  virtual int init(sock_t sockfd) CXX11_OVERRIDE
+101,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,54,  virtual int setSNIHostname(const std::string& hostname) CXX11_OVERRIDE
+102,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,55,  virtual int closeConnection() CXX11_OVERRIDE
+103,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,  virtual int checkDirection() CXX11_OVERRIDE
+104,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual ssize_t writeData(const void* data, size_t len) CXX11_OVERRIDE"
+105,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual ssize_t readData(void* data, size_t len) CXX11_OVERRIDE"
+106,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,59,"  virtual int tlsConnect(const std::string& hostname, TLSVersion& version,              ^"
+107,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,61,  virtual int tlsAccept(TLSVersion& version) CXX11_OVERRIDE
+108,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,62,  virtual std::string getLastErrorString() CXX11_OVERRIDE
+109,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual size_t getRecvBufferedLength() CXX11_OVERRIDE { return 0
+110,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,48,  BufferedFile(FILE* fp)
+111,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+112,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+113,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+114,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,62,  virtual size_t write(const char* str) CXX11_OVERRIDE
+115,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,72,  int flush() CXX11_OVERRIDE
+116,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,77,  bool supportsColor() CXX11_OVERRIDE
+117,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,81,"  int vprintf(const char* format, va_list va) CXX11_OVERRIDE"
+118,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,53,"  virtual size_t onRead(void* ptr, size_t count) CXX11_OVERRIDE"
+119,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,55,"  virtual size_t onWrite(const void* ptr, size_t count) CXX11_OVERRIDE"
+120,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual char* onGets(char* s, int size) CXX11_OVERRIDE"
+121,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual int onVprintf(const char* format, va_list va) CXX11_OVERRIDE"
+122,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,60,  virtual int onFlush() CXX11_OVERRIDE
+123,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,62,  virtual int onClose() CXX11_OVERRIDE
+124,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool onSupportsColor() CXX11_OVERRIDE
+125,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,64,  virtual bool isError() const CXX11_OVERRIDE
+126,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool isEOF() const CXX11_OVERRIDE
+127,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,66,  virtual bool isOpen() const CXX11_OVERRIDE
+128,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,48,  BufferedFile(FILE* fp)
+129,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+130,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+131,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+132,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,62,  virtual size_t write(const char* str) CXX11_OVERRIDE
+133,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,72,  int flush() CXX11_OVERRIDE
+134,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,77,  bool supportsColor() CXX11_OVERRIDE
+135,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,81,"  int vprintf(const char* format, va_list va) CXX11_OVERRIDE"
+136,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,53,"  virtual size_t onRead(void* ptr, size_t count) CXX11_OVERRIDE"
+137,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,55,"  virtual size_t onWrite(const void* ptr, size_t count) CXX11_OVERRIDE"
+138,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual char* onGets(char* s, int size) CXX11_OVERRIDE"
+139,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual int onVprintf(const char* format, va_list va) CXX11_OVERRIDE"
+140,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,60,  virtual int onFlush() CXX11_OVERRIDE
+141,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,62,  virtual int onClose() CXX11_OVERRIDE
+142,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool onSupportsColor() CXX11_OVERRIDE
+143,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,64,  virtual bool isError() const CXX11_OVERRIDE
+144,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool isEOF() const CXX11_OVERRIDE
+145,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,66,  virtual bool isOpen() const CXX11_OVERRIDE
+146,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,48,  BufferedFile(FILE* fp)
+147,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+148,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+149,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+150,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,62,  virtual size_t write(const char* str) CXX11_OVERRIDE
+151,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,72,  int flush() CXX11_OVERRIDE
+152,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,77,  bool supportsColor() CXX11_OVERRIDE
+153,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,81,"  int vprintf(const char* format, va_list va) CXX11_OVERRIDE"
+154,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,53,"  virtual size_t onRead(void* ptr, size_t count) CXX11_OVERRIDE"
+155,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,55,"  virtual size_t onWrite(const void* ptr, size_t count) CXX11_OVERRIDE"
+156,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual char* onGets(char* s, int size) CXX11_OVERRIDE"
+157,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual int onVprintf(const char* format, va_list va) CXX11_OVERRIDE"
+158,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,60,  virtual int onFlush() CXX11_OVERRIDE
+159,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,62,  virtual int onClose() CXX11_OVERRIDE
+160,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool onSupportsColor() CXX11_OVERRIDE
+161,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,64,  virtual bool isError() const CXX11_OVERRIDE
+162,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool isEOF() const CXX11_OVERRIDE
+163,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,66,  virtual bool isOpen() const CXX11_OVERRIDE
+164,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,51,  OpenSSLTLSSession(OpenSSLTLSContext* tlsContext)
+165,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+166,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,118,  SocketCore(int sockType = SOCK_STREAM)
+167,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+168,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+169,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,"  virtual bool addCredentialFile(const std::string& certfile,               ^"
+170,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,60,  virtual bool addSystemTrustedCACerts() CXX11_OVERRIDE
+171,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool addTrustedCACertFile(const std::string& certfile) CXX11_OVERRIDE
+172,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool good() const CXX11_OVERRIDE
+173,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,67,  virtual TLSSessionSide getSide() const CXX11_OVERRIDE { return side_
+174,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,69,  virtual bool getVerifyPeer() const CXX11_OVERRIDE { return verifyPeer_
+175,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,70,  virtual void setVerifyPeer(bool verify) CXX11_OVERRIDE               ^
+176,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,53,  virtual int init(sock_t sockfd) CXX11_OVERRIDE
+177,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,54,  virtual int setSNIHostname(const std::string& hostname) CXX11_OVERRIDE
+178,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,55,  virtual int closeConnection() CXX11_OVERRIDE
+179,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,  virtual int checkDirection() CXX11_OVERRIDE
+180,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual ssize_t writeData(const void* data, size_t len) CXX11_OVERRIDE"
+181,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual ssize_t readData(void* data, size_t len) CXX11_OVERRIDE"
+182,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,59,"  virtual int tlsConnect(const std::string& hostname, TLSVersion& version,              ^"
+183,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,61,  virtual int tlsAccept(TLSVersion& version) CXX11_OVERRIDE
+184,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,62,  virtual std::string getLastErrorString() CXX11_OVERRIDE
+185,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual size_t getRecvBufferedLength() CXX11_OVERRIDE { return 0
+186,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,51,  OpenSSLTLSSession(OpenSSLTLSContext* tlsContext)
+187,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+188,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,118,  SocketCore(int sockType = SOCK_STREAM)
+189,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+190,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+191,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,"  virtual bool addCredentialFile(const std::string& certfile,               ^"
+192,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,60,  virtual bool addSystemTrustedCACerts() CXX11_OVERRIDE
+193,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool addTrustedCACertFile(const std::string& certfile) CXX11_OVERRIDE
+194,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool good() const CXX11_OVERRIDE
+195,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,67,  virtual TLSSessionSide getSide() const CXX11_OVERRIDE { return side_
+196,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,69,  virtual bool getVerifyPeer() const CXX11_OVERRIDE { return verifyPeer_
+197,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,70,  virtual void setVerifyPeer(bool verify) CXX11_OVERRIDE               ^
+198,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,53,  virtual int init(sock_t sockfd) CXX11_OVERRIDE
+199,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,54,  virtual int setSNIHostname(const std::string& hostname) CXX11_OVERRIDE
+200,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,55,  virtual int closeConnection() CXX11_OVERRIDE
+201,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,  virtual int checkDirection() CXX11_OVERRIDE
+202,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual ssize_t writeData(const void* data, size_t len) CXX11_OVERRIDE"
+203,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual ssize_t readData(void* data, size_t len) CXX11_OVERRIDE"
+204,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,59,"  virtual int tlsConnect(const std::string& hostname, TLSVersion& version,              ^"
+205,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,61,  virtual int tlsAccept(TLSVersion& version) CXX11_OVERRIDE
+206,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,62,  virtual std::string getLastErrorString() CXX11_OVERRIDE
+207,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual size_t getRecvBufferedLength() CXX11_OVERRIDE { return 0
+208,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,51,  OpenSSLTLSSession(OpenSSLTLSContext* tlsContext)
+209,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+210,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,118,  SocketCore(int sockType = SOCK_STREAM)
+211,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+212,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+213,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,"  virtual bool addCredentialFile(const std::string& certfile,               ^"
+214,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,60,  virtual bool addSystemTrustedCACerts() CXX11_OVERRIDE
+215,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool addTrustedCACertFile(const std::string& certfile) CXX11_OVERRIDE
+216,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool good() const CXX11_OVERRIDE
+217,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,67,  virtual TLSSessionSide getSide() const CXX11_OVERRIDE { return side_
+218,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,69,  virtual bool getVerifyPeer() const CXX11_OVERRIDE { return verifyPeer_
+219,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,70,  virtual void setVerifyPeer(bool verify) CXX11_OVERRIDE               ^
+220,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,53,  virtual int init(sock_t sockfd) CXX11_OVERRIDE
+221,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,54,  virtual int setSNIHostname(const std::string& hostname) CXX11_OVERRIDE
+222,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,55,  virtual int closeConnection() CXX11_OVERRIDE
+223,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,  virtual int checkDirection() CXX11_OVERRIDE
+224,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual ssize_t writeData(const void* data, size_t len) CXX11_OVERRIDE"
+225,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual ssize_t readData(void* data, size_t len) CXX11_OVERRIDE"
+226,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,59,"  virtual int tlsConnect(const std::string& hostname, TLSVersion& version,              ^"
+227,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,61,  virtual int tlsAccept(TLSVersion& version) CXX11_OVERRIDE
+228,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,62,  virtual std::string getLastErrorString() CXX11_OVERRIDE
+229,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual size_t getRecvBufferedLength() CXX11_OVERRIDE { return 0
+230,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,51,  OpenSSLTLSSession(OpenSSLTLSContext* tlsContext)
+231,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+232,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,118,  SocketCore(int sockType = SOCK_STREAM)
+233,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+234,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+235,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,"  virtual bool addCredentialFile(const std::string& certfile,               ^"
+236,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,60,  virtual bool addSystemTrustedCACerts() CXX11_OVERRIDE
+237,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool addTrustedCACertFile(const std::string& certfile) CXX11_OVERRIDE
+238,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool good() const CXX11_OVERRIDE
+239,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,67,  virtual TLSSessionSide getSide() const CXX11_OVERRIDE { return side_
+240,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,69,  virtual bool getVerifyPeer() const CXX11_OVERRIDE { return verifyPeer_
+241,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,70,  virtual void setVerifyPeer(bool verify) CXX11_OVERRIDE               ^
+242,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,53,  virtual int init(sock_t sockfd) CXX11_OVERRIDE
+243,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,54,  virtual int setSNIHostname(const std::string& hostname) CXX11_OVERRIDE
+244,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,55,  virtual int closeConnection() CXX11_OVERRIDE
+245,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,  virtual int checkDirection() CXX11_OVERRIDE
+246,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual ssize_t writeData(const void* data, size_t len) CXX11_OVERRIDE"
+247,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual ssize_t readData(void* data, size_t len) CXX11_OVERRIDE"
+248,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,59,"  virtual int tlsConnect(const std::string& hostname, TLSVersion& version,              ^"
+249,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,61,  virtual int tlsAccept(TLSVersion& version) CXX11_OVERRIDE
+250,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,62,  virtual std::string getLastErrorString() CXX11_OVERRIDE
+251,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual size_t getRecvBufferedLength() CXX11_OVERRIDE { return 0
+252,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,51,  OpenSSLTLSSession(OpenSSLTLSContext* tlsContext)
+253,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+254,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,118,  SocketCore(int sockType = SOCK_STREAM)
+255,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+256,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+257,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,"  virtual bool addCredentialFile(const std::string& certfile,               ^"
+258,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,60,  virtual bool addSystemTrustedCACerts() CXX11_OVERRIDE
+259,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool addTrustedCACertFile(const std::string& certfile) CXX11_OVERRIDE
+260,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool good() const CXX11_OVERRIDE
+261,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,67,  virtual TLSSessionSide getSide() const CXX11_OVERRIDE { return side_
+262,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,69,  virtual bool getVerifyPeer() const CXX11_OVERRIDE { return verifyPeer_
+263,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,70,  virtual void setVerifyPeer(bool verify) CXX11_OVERRIDE               ^
+264,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,53,  virtual int init(sock_t sockfd) CXX11_OVERRIDE
+265,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,54,  virtual int setSNIHostname(const std::string& hostname) CXX11_OVERRIDE
+266,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,55,  virtual int closeConnection() CXX11_OVERRIDE
+267,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,  virtual int checkDirection() CXX11_OVERRIDE
+268,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual ssize_t writeData(const void* data, size_t len) CXX11_OVERRIDE"
+269,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual ssize_t readData(void* data, size_t len) CXX11_OVERRIDE"
+270,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,59,"  virtual int tlsConnect(const std::string& hostname, TLSVersion& version,              ^"
+271,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,61,  virtual int tlsAccept(TLSVersion& version) CXX11_OVERRIDE
+272,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,62,  virtual std::string getLastErrorString() CXX11_OVERRIDE
+273,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual size_t getRecvBufferedLength() CXX11_OVERRIDE { return 0
+274,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,48,  BufferedFile(FILE* fp)
+275,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+276,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+277,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+278,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,62,  virtual size_t write(const char* str) CXX11_OVERRIDE
+279,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,72,  int flush() CXX11_OVERRIDE
+280,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,77,  bool supportsColor() CXX11_OVERRIDE
+281,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,81,"  int vprintf(const char* format, va_list va) CXX11_OVERRIDE"
+282,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,53,"  virtual size_t onRead(void* ptr, size_t count) CXX11_OVERRIDE"
+283,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,55,"  virtual size_t onWrite(const void* ptr, size_t count) CXX11_OVERRIDE"
+284,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual char* onGets(char* s, int size) CXX11_OVERRIDE"
+285,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual int onVprintf(const char* format, va_list va) CXX11_OVERRIDE"
+286,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,60,  virtual int onFlush() CXX11_OVERRIDE
+287,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,62,  virtual int onClose() CXX11_OVERRIDE
+288,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool onSupportsColor() CXX11_OVERRIDE
+289,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,64,  virtual bool isError() const CXX11_OVERRIDE
+290,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool isEOF() const CXX11_OVERRIDE
+291,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,66,  virtual bool isOpen() const CXX11_OVERRIDE
+292,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,48,  BufferedFile(FILE* fp)
+293,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+294,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+295,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+296,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,62,  virtual size_t write(const char* str) CXX11_OVERRIDE
+297,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,72,  int flush() CXX11_OVERRIDE
+298,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,77,  bool supportsColor() CXX11_OVERRIDE
+299,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,81,"  int vprintf(const char* format, va_list va) CXX11_OVERRIDE"
+300,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,53,"  virtual size_t onRead(void* ptr, size_t count) CXX11_OVERRIDE"
+301,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,55,"  virtual size_t onWrite(const void* ptr, size_t count) CXX11_OVERRIDE"
+302,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual char* onGets(char* s, int size) CXX11_OVERRIDE"
+303,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual int onVprintf(const char* format, va_list va) CXX11_OVERRIDE"
+304,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,60,  virtual int onFlush() CXX11_OVERRIDE
+305,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,62,  virtual int onClose() CXX11_OVERRIDE
+306,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool onSupportsColor() CXX11_OVERRIDE
+307,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,64,  virtual bool isError() const CXX11_OVERRIDE
+308,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool isEOF() const CXX11_OVERRIDE
+309,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,66,  virtual bool isOpen() const CXX11_OVERRIDE
+310,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,48,  BufferedFile(FILE* fp)
+311,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+312,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+313,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+314,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,62,  virtual size_t write(const char* str) CXX11_OVERRIDE
+315,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,72,  int flush() CXX11_OVERRIDE
+316,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,77,  bool supportsColor() CXX11_OVERRIDE
+317,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,81,"  int vprintf(const char* format, va_list va) CXX11_OVERRIDE"
+318,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,53,"  virtual size_t onRead(void* ptr, size_t count) CXX11_OVERRIDE"
+319,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,55,"  virtual size_t onWrite(const void* ptr, size_t count) CXX11_OVERRIDE"
+320,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual char* onGets(char* s, int size) CXX11_OVERRIDE"
+321,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual int onVprintf(const char* format, va_list va) CXX11_OVERRIDE"
+322,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,60,  virtual int onFlush() CXX11_OVERRIDE
+323,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,62,  virtual int onClose() CXX11_OVERRIDE
+324,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool onSupportsColor() CXX11_OVERRIDE
+325,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,64,  virtual bool isError() const CXX11_OVERRIDE
+326,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool isEOF() const CXX11_OVERRIDE
+327,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,66,  virtual bool isOpen() const CXX11_OVERRIDE
+328,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,51,  OpenSSLTLSSession(OpenSSLTLSContext* tlsContext)
+329,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+330,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,118,  SocketCore(int sockType = SOCK_STREAM)
+331,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+332,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+333,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,"  virtual bool addCredentialFile(const std::string& certfile,               ^"
+334,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,60,  virtual bool addSystemTrustedCACerts() CXX11_OVERRIDE
+335,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool addTrustedCACertFile(const std::string& certfile) CXX11_OVERRIDE
+336,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool good() const CXX11_OVERRIDE
+337,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,67,  virtual TLSSessionSide getSide() const CXX11_OVERRIDE { return side_
+338,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,69,  virtual bool getVerifyPeer() const CXX11_OVERRIDE { return verifyPeer_
+339,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,70,  virtual void setVerifyPeer(bool verify) CXX11_OVERRIDE               ^
+340,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,53,  virtual int init(sock_t sockfd) CXX11_OVERRIDE
+341,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,54,  virtual int setSNIHostname(const std::string& hostname) CXX11_OVERRIDE
+342,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,55,  virtual int closeConnection() CXX11_OVERRIDE
+343,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,  virtual int checkDirection() CXX11_OVERRIDE
+344,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual ssize_t writeData(const void* data, size_t len) CXX11_OVERRIDE"
+345,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual ssize_t readData(void* data, size_t len) CXX11_OVERRIDE"
+346,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,59,"  virtual int tlsConnect(const std::string& hostname, TLSVersion& version,              ^"
+347,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,61,  virtual int tlsAccept(TLSVersion& version) CXX11_OVERRIDE
+348,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,62,  virtual std::string getLastErrorString() CXX11_OVERRIDE
+349,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual size_t getRecvBufferedLength() CXX11_OVERRIDE { return 0
+350,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,51,  OpenSSLTLSSession(OpenSSLTLSContext* tlsContext)
+351,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+352,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,118,  SocketCore(int sockType = SOCK_STREAM)
+353,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+354,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+355,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,"  virtual bool addCredentialFile(const std::string& certfile,               ^"
+356,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,60,  virtual bool addSystemTrustedCACerts() CXX11_OVERRIDE
+357,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool addTrustedCACertFile(const std::string& certfile) CXX11_OVERRIDE
+358,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool good() const CXX11_OVERRIDE
+359,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,67,  virtual TLSSessionSide getSide() const CXX11_OVERRIDE { return side_
+360,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,69,  virtual bool getVerifyPeer() const CXX11_OVERRIDE { return verifyPeer_
+361,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,70,  virtual void setVerifyPeer(bool verify) CXX11_OVERRIDE               ^
+362,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,53,  virtual int init(sock_t sockfd) CXX11_OVERRIDE
+363,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,54,  virtual int setSNIHostname(const std::string& hostname) CXX11_OVERRIDE
+364,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,55,  virtual int closeConnection() CXX11_OVERRIDE
+365,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,  virtual int checkDirection() CXX11_OVERRIDE
+366,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual ssize_t writeData(const void* data, size_t len) CXX11_OVERRIDE"
+367,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual ssize_t readData(void* data, size_t len) CXX11_OVERRIDE"
+368,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,59,"  virtual int tlsConnect(const std::string& hostname, TLSVersion& version,              ^"
+369,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,61,  virtual int tlsAccept(TLSVersion& version) CXX11_OVERRIDE
+370,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,62,  virtual std::string getLastErrorString() CXX11_OVERRIDE
+371,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual size_t getRecvBufferedLength() CXX11_OVERRIDE { return 0
+372,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,51,  OpenSSLTLSSession(OpenSSLTLSContext* tlsContext)
+373,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+374,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,118,  SocketCore(int sockType = SOCK_STREAM)
+375,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+376,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+377,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,"  virtual bool addCredentialFile(const std::string& certfile,               ^"
+378,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,60,  virtual bool addSystemTrustedCACerts() CXX11_OVERRIDE
+379,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool addTrustedCACertFile(const std::string& certfile) CXX11_OVERRIDE
+380,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool good() const CXX11_OVERRIDE
+381,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,67,  virtual TLSSessionSide getSide() const CXX11_OVERRIDE { return side_
+382,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,69,  virtual bool getVerifyPeer() const CXX11_OVERRIDE { return verifyPeer_
+383,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,70,  virtual void setVerifyPeer(bool verify) CXX11_OVERRIDE               ^
+384,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,53,  virtual int init(sock_t sockfd) CXX11_OVERRIDE
+385,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,54,  virtual int setSNIHostname(const std::string& hostname) CXX11_OVERRIDE
+386,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,55,  virtual int closeConnection() CXX11_OVERRIDE
+387,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,  virtual int checkDirection() CXX11_OVERRIDE
+388,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual ssize_t writeData(const void* data, size_t len) CXX11_OVERRIDE"
+389,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual ssize_t readData(void* data, size_t len) CXX11_OVERRIDE"
+390,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,59,"  virtual int tlsConnect(const std::string& hostname, TLSVersion& version,              ^"
+391,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,61,  virtual int tlsAccept(TLSVersion& version) CXX11_OVERRIDE
+392,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,62,  virtual std::string getLastErrorString() CXX11_OVERRIDE
+393,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual size_t getRecvBufferedLength() CXX11_OVERRIDE { return 0
+394,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,51,  OpenSSLTLSSession(OpenSSLTLSContext* tlsContext)
+395,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+396,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,118,  SocketCore(int sockType = SOCK_STREAM)
+397,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+398,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+399,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,"  virtual bool addCredentialFile(const std::string& certfile,               ^"
+400,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,60,  virtual bool addSystemTrustedCACerts() CXX11_OVERRIDE
+401,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool addTrustedCACertFile(const std::string& certfile) CXX11_OVERRIDE
+402,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool good() const CXX11_OVERRIDE
+403,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,67,  virtual TLSSessionSide getSide() const CXX11_OVERRIDE { return side_
+404,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,69,  virtual bool getVerifyPeer() const CXX11_OVERRIDE { return verifyPeer_
+405,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,70,  virtual void setVerifyPeer(bool verify) CXX11_OVERRIDE               ^
+406,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,53,  virtual int init(sock_t sockfd) CXX11_OVERRIDE
+407,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,54,  virtual int setSNIHostname(const std::string& hostname) CXX11_OVERRIDE
+408,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,55,  virtual int closeConnection() CXX11_OVERRIDE
+409,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,  virtual int checkDirection() CXX11_OVERRIDE
+410,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual ssize_t writeData(const void* data, size_t len) CXX11_OVERRIDE"
+411,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual ssize_t readData(void* data, size_t len) CXX11_OVERRIDE"
+412,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,59,"  virtual int tlsConnect(const std::string& hostname, TLSVersion& version,              ^"
+413,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,61,  virtual int tlsAccept(TLSVersion& version) CXX11_OVERRIDE
+414,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,62,  virtual std::string getLastErrorString() CXX11_OVERRIDE
+415,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual size_t getRecvBufferedLength() CXX11_OVERRIDE { return 0
+416,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,51,  OpenSSLTLSSession(OpenSSLTLSContext* tlsContext)
+417,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+418,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,118,  SocketCore(int sockType = SOCK_STREAM)
+419,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+420,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+421,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,"  virtual bool addCredentialFile(const std::string& certfile,               ^"
+422,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,60,  virtual bool addSystemTrustedCACerts() CXX11_OVERRIDE
+423,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool addTrustedCACertFile(const std::string& certfile) CXX11_OVERRIDE
+424,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool good() const CXX11_OVERRIDE
+425,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,67,  virtual TLSSessionSide getSide() const CXX11_OVERRIDE { return side_
+426,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,69,  virtual bool getVerifyPeer() const CXX11_OVERRIDE { return verifyPeer_
+427,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,70,  virtual void setVerifyPeer(bool verify) CXX11_OVERRIDE               ^
+428,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,53,  virtual int init(sock_t sockfd) CXX11_OVERRIDE
+429,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,54,  virtual int setSNIHostname(const std::string& hostname) CXX11_OVERRIDE
+430,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,55,  virtual int closeConnection() CXX11_OVERRIDE
+431,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,  virtual int checkDirection() CXX11_OVERRIDE
+432,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual ssize_t writeData(const void* data, size_t len) CXX11_OVERRIDE"
+433,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual ssize_t readData(void* data, size_t len) CXX11_OVERRIDE"
+434,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,59,"  virtual int tlsConnect(const std::string& hostname, TLSVersion& version,              ^"
+435,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,61,  virtual int tlsAccept(TLSVersion& version) CXX11_OVERRIDE
+436,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,62,  virtual std::string getLastErrorString() CXX11_OVERRIDE
+437,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual size_t getRecvBufferedLength() CXX11_OVERRIDE { return 0
+438,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,48,  BufferedFile(FILE* fp)
+439,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+440,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+441,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+442,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,62,  virtual size_t write(const char* str) CXX11_OVERRIDE
+443,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,72,  int flush() CXX11_OVERRIDE
+444,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,77,  bool supportsColor() CXX11_OVERRIDE
+445,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,81,"  int vprintf(const char* format, va_list va) CXX11_OVERRIDE"
+446,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,53,"  virtual size_t onRead(void* ptr, size_t count) CXX11_OVERRIDE"
+447,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,55,"  virtual size_t onWrite(const void* ptr, size_t count) CXX11_OVERRIDE"
+448,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual char* onGets(char* s, int size) CXX11_OVERRIDE"
+449,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual int onVprintf(const char* format, va_list va) CXX11_OVERRIDE"
+450,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,60,  virtual int onFlush() CXX11_OVERRIDE
+451,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,62,  virtual int onClose() CXX11_OVERRIDE
+452,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool onSupportsColor() CXX11_OVERRIDE
+453,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,64,  virtual bool isError() const CXX11_OVERRIDE
+454,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool isEOF() const CXX11_OVERRIDE
+455,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,66,  virtual bool isOpen() const CXX11_OVERRIDE
+456,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,48,  BufferedFile(FILE* fp)
+457,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+458,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+459,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+460,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,62,  virtual size_t write(const char* str) CXX11_OVERRIDE
+461,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,72,  int flush() CXX11_OVERRIDE
+462,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,77,  bool supportsColor() CXX11_OVERRIDE
+463,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,81,"  int vprintf(const char* format, va_list va) CXX11_OVERRIDE"
+464,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,53,"  virtual size_t onRead(void* ptr, size_t count) CXX11_OVERRIDE"
+465,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,55,"  virtual size_t onWrite(const void* ptr, size_t count) CXX11_OVERRIDE"
+466,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual char* onGets(char* s, int size) CXX11_OVERRIDE"
+467,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual int onVprintf(const char* format, va_list va) CXX11_OVERRIDE"
+468,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,60,  virtual int onFlush() CXX11_OVERRIDE
+469,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,62,  virtual int onClose() CXX11_OVERRIDE
+470,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool onSupportsColor() CXX11_OVERRIDE
+471,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,64,  virtual bool isError() const CXX11_OVERRIDE
+472,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool isEOF() const CXX11_OVERRIDE
+473,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,66,  virtual bool isOpen() const CXX11_OVERRIDE
+474,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,48,  BufferedFile(FILE* fp)
+475,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+476,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+477,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+478,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,62,  virtual size_t write(const char* str) CXX11_OVERRIDE
+479,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,72,  int flush() CXX11_OVERRIDE
+480,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,77,  bool supportsColor() CXX11_OVERRIDE
+481,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,81,"  int vprintf(const char* format, va_list va) CXX11_OVERRIDE"
+482,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,53,"  virtual size_t onRead(void* ptr, size_t count) CXX11_OVERRIDE"
+483,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,55,"  virtual size_t onWrite(const void* ptr, size_t count) CXX11_OVERRIDE"
+484,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual char* onGets(char* s, int size) CXX11_OVERRIDE"
+485,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual int onVprintf(const char* format, va_list va) CXX11_OVERRIDE"
+486,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,60,  virtual int onFlush() CXX11_OVERRIDE
+487,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,62,  virtual int onClose() CXX11_OVERRIDE
+488,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool onSupportsColor() CXX11_OVERRIDE
+489,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,64,  virtual bool isError() const CXX11_OVERRIDE
+490,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool isEOF() const CXX11_OVERRIDE
+491,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,66,  virtual bool isOpen() const CXX11_OVERRIDE
+492,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,51,  OpenSSLTLSSession(OpenSSLTLSContext* tlsContext)
+493,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+494,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,118,  SocketCore(int sockType = SOCK_STREAM)
+495,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+496,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+497,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,"  virtual bool addCredentialFile(const std::string& certfile,               ^"
+498,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,60,  virtual bool addSystemTrustedCACerts() CXX11_OVERRIDE
+499,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool addTrustedCACertFile(const std::string& certfile) CXX11_OVERRIDE
+500,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool good() const CXX11_OVERRIDE
+501,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,67,  virtual TLSSessionSide getSide() const CXX11_OVERRIDE { return side_
+502,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,69,  virtual bool getVerifyPeer() const CXX11_OVERRIDE { return verifyPeer_
+503,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,70,  virtual void setVerifyPeer(bool verify) CXX11_OVERRIDE               ^
+504,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,53,  virtual int init(sock_t sockfd) CXX11_OVERRIDE
+505,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,54,  virtual int setSNIHostname(const std::string& hostname) CXX11_OVERRIDE
+506,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,55,  virtual int closeConnection() CXX11_OVERRIDE
+507,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,  virtual int checkDirection() CXX11_OVERRIDE
+508,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual ssize_t writeData(const void* data, size_t len) CXX11_OVERRIDE"
+509,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual ssize_t readData(void* data, size_t len) CXX11_OVERRIDE"
+510,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,59,"  virtual int tlsConnect(const std::string& hostname, TLSVersion& version,              ^"
+511,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,61,  virtual int tlsAccept(TLSVersion& version) CXX11_OVERRIDE
+512,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,62,  virtual std::string getLastErrorString() CXX11_OVERRIDE
+513,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual size_t getRecvBufferedLength() CXX11_OVERRIDE { return 0
+514,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,51,  OpenSSLTLSSession(OpenSSLTLSContext* tlsContext)
+515,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+516,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,118,  SocketCore(int sockType = SOCK_STREAM)
+517,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+518,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+519,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,"  virtual bool addCredentialFile(const std::string& certfile,               ^"
+520,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,60,  virtual bool addSystemTrustedCACerts() CXX11_OVERRIDE
+521,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool addTrustedCACertFile(const std::string& certfile) CXX11_OVERRIDE
+522,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool good() const CXX11_OVERRIDE
+523,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,67,  virtual TLSSessionSide getSide() const CXX11_OVERRIDE { return side_
+524,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,69,  virtual bool getVerifyPeer() const CXX11_OVERRIDE { return verifyPeer_
+525,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,70,  virtual void setVerifyPeer(bool verify) CXX11_OVERRIDE               ^
+526,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,53,  virtual int init(sock_t sockfd) CXX11_OVERRIDE
+527,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,54,  virtual int setSNIHostname(const std::string& hostname) CXX11_OVERRIDE
+528,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,55,  virtual int closeConnection() CXX11_OVERRIDE
+529,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,  virtual int checkDirection() CXX11_OVERRIDE
+530,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual ssize_t writeData(const void* data, size_t len) CXX11_OVERRIDE"
+531,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual ssize_t readData(void* data, size_t len) CXX11_OVERRIDE"
+532,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,59,"  virtual int tlsConnect(const std::string& hostname, TLSVersion& version,              ^"
+533,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,61,  virtual int tlsAccept(TLSVersion& version) CXX11_OVERRIDE
+534,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,62,  virtual std::string getLastErrorString() CXX11_OVERRIDE
+535,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual size_t getRecvBufferedLength() CXX11_OVERRIDE { return 0
+536,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,51,  OpenSSLTLSSession(OpenSSLTLSContext* tlsContext)
+537,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+538,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,118,  SocketCore(int sockType = SOCK_STREAM)
+539,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+540,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+541,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,"  virtual bool addCredentialFile(const std::string& certfile,               ^"
+542,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,60,  virtual bool addSystemTrustedCACerts() CXX11_OVERRIDE
+543,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool addTrustedCACertFile(const std::string& certfile) CXX11_OVERRIDE
+544,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool good() const CXX11_OVERRIDE
+545,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,67,  virtual TLSSessionSide getSide() const CXX11_OVERRIDE { return side_
+546,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,69,  virtual bool getVerifyPeer() const CXX11_OVERRIDE { return verifyPeer_
+547,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,70,  virtual void setVerifyPeer(bool verify) CXX11_OVERRIDE               ^
+548,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,53,  virtual int init(sock_t sockfd) CXX11_OVERRIDE
+549,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,54,  virtual int setSNIHostname(const std::string& hostname) CXX11_OVERRIDE
+550,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,55,  virtual int closeConnection() CXX11_OVERRIDE
+551,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,  virtual int checkDirection() CXX11_OVERRIDE
+552,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual ssize_t writeData(const void* data, size_t len) CXX11_OVERRIDE"
+553,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual ssize_t readData(void* data, size_t len) CXX11_OVERRIDE"
+554,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,59,"  virtual int tlsConnect(const std::string& hostname, TLSVersion& version,              ^"
+555,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,61,  virtual int tlsAccept(TLSVersion& version) CXX11_OVERRIDE
+556,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,62,  virtual std::string getLastErrorString() CXX11_OVERRIDE
+557,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual size_t getRecvBufferedLength() CXX11_OVERRIDE { return 0
+558,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,51,  OpenSSLTLSSession(OpenSSLTLSContext* tlsContext)
+559,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+560,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,118,  SocketCore(int sockType = SOCK_STREAM)
+561,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+562,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+563,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,"  virtual bool addCredentialFile(const std::string& certfile,               ^"
+564,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,60,  virtual bool addSystemTrustedCACerts() CXX11_OVERRIDE
+565,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool addTrustedCACertFile(const std::string& certfile) CXX11_OVERRIDE
+566,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool good() const CXX11_OVERRIDE
+567,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,67,  virtual TLSSessionSide getSide() const CXX11_OVERRIDE { return side_
+568,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,69,  virtual bool getVerifyPeer() const CXX11_OVERRIDE { return verifyPeer_
+569,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,70,  virtual void setVerifyPeer(bool verify) CXX11_OVERRIDE               ^
+570,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,53,  virtual int init(sock_t sockfd) CXX11_OVERRIDE
+571,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,54,  virtual int setSNIHostname(const std::string& hostname) CXX11_OVERRIDE
+572,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,55,  virtual int closeConnection() CXX11_OVERRIDE
+573,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,  virtual int checkDirection() CXX11_OVERRIDE
+574,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual ssize_t writeData(const void* data, size_t len) CXX11_OVERRIDE"
+575,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual ssize_t readData(void* data, size_t len) CXX11_OVERRIDE"
+576,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,59,"  virtual int tlsConnect(const std::string& hostname, TLSVersion& version,              ^"
+577,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,61,  virtual int tlsAccept(TLSVersion& version) CXX11_OVERRIDE
+578,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,62,  virtual std::string getLastErrorString() CXX11_OVERRIDE
+579,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual size_t getRecvBufferedLength() CXX11_OVERRIDE { return 0
+580,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,51,  OpenSSLTLSSession(OpenSSLTLSContext* tlsContext)
+581,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+582,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,118,  SocketCore(int sockType = SOCK_STREAM)
+583,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+584,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+585,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,"  virtual bool addCredentialFile(const std::string& certfile,               ^"
+586,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,60,  virtual bool addSystemTrustedCACerts() CXX11_OVERRIDE
+587,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool addTrustedCACertFile(const std::string& certfile) CXX11_OVERRIDE
+588,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool good() const CXX11_OVERRIDE
+589,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,67,  virtual TLSSessionSide getSide() const CXX11_OVERRIDE { return side_
+590,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,69,  virtual bool getVerifyPeer() const CXX11_OVERRIDE { return verifyPeer_
+591,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,70,  virtual void setVerifyPeer(bool verify) CXX11_OVERRIDE               ^
+592,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,53,  virtual int init(sock_t sockfd) CXX11_OVERRIDE
+593,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,54,  virtual int setSNIHostname(const std::string& hostname) CXX11_OVERRIDE
+594,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,55,  virtual int closeConnection() CXX11_OVERRIDE
+595,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,56,  virtual int checkDirection() CXX11_OVERRIDE
+596,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual ssize_t writeData(const void* data, size_t len) CXX11_OVERRIDE"
+597,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual ssize_t readData(void* data, size_t len) CXX11_OVERRIDE"
+598,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,59,"  virtual int tlsConnect(const std::string& hostname, TLSVersion& version,              ^"
+599,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,61,  virtual int tlsAccept(TLSVersion& version) CXX11_OVERRIDE
+600,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,62,  virtual std::string getLastErrorString() CXX11_OVERRIDE
+601,aria2/aria2,869aae82648cfe9f4a7dac2bd912240a71dfdc70,src/LibsslTLSSession.cc,"OpenSSLTLSSession::~OpenSSLTLSSession()
+{
+  if(ssl_) {
+    SSL_shutdown(ssl_);
+  }
+}
+",2015-12-27 18:40:08 +0900,63,  virtual size_t getRecvBufferedLength() CXX11_OVERRIDE { return 0
+602,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,48,  BufferedFile(FILE* fp)
+603,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+604,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+605,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+606,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,62,  virtual size_t write(const char* str) CXX11_OVERRIDE
+607,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,72,  int flush() CXX11_OVERRIDE
+608,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,77,  bool supportsColor() CXX11_OVERRIDE
+609,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,81,"  int vprintf(const char* format, va_list va) CXX11_OVERRIDE"
+610,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,53,"  virtual size_t onRead(void* ptr, size_t count) CXX11_OVERRIDE"
+611,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,55,"  virtual size_t onWrite(const void* ptr, size_t count) CXX11_OVERRIDE"
+612,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual char* onGets(char* s, int size) CXX11_OVERRIDE"
+613,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual int onVprintf(const char* format, va_list va) CXX11_OVERRIDE"
+614,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,60,  virtual int onFlush() CXX11_OVERRIDE
+615,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,62,  virtual int onClose() CXX11_OVERRIDE
+616,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool onSupportsColor() CXX11_OVERRIDE
+617,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,64,  virtual bool isError() const CXX11_OVERRIDE
+618,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool isEOF() const CXX11_OVERRIDE
+619,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,66,  virtual bool isOpen() const CXX11_OVERRIDE
+620,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,48,  BufferedFile(FILE* fp)
+621,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+622,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+623,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+624,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,62,  virtual size_t write(const char* str) CXX11_OVERRIDE
+625,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,72,  int flush() CXX11_OVERRIDE
+626,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,77,  bool supportsColor() CXX11_OVERRIDE
+627,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,81,"  int vprintf(const char* format, va_list va) CXX11_OVERRIDE"
+628,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,53,"  virtual size_t onRead(void* ptr, size_t count) CXX11_OVERRIDE"
+629,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,55,"  virtual size_t onWrite(const void* ptr, size_t count) CXX11_OVERRIDE"
+630,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual char* onGets(char* s, int size) CXX11_OVERRIDE"
+631,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual int onVprintf(const char* format, va_list va) CXX11_OVERRIDE"
+632,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,60,  virtual int onFlush() CXX11_OVERRIDE
+633,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,62,  virtual int onClose() CXX11_OVERRIDE
+634,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool onSupportsColor() CXX11_OVERRIDE
+635,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,64,  virtual bool isError() const CXX11_OVERRIDE
+636,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool isEOF() const CXX11_OVERRIDE
+637,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,66,  virtual bool isOpen() const CXX11_OVERRIDE
+638,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,48,  BufferedFile(FILE* fp)
+639,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,136,  DerefEqual(const T& t) : target(t) {}  ^
+640,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+641,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+642,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,62,  virtual size_t write(const char* str) CXX11_OVERRIDE
+643,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,72,  int flush() CXX11_OVERRIDE
+644,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,77,  bool supportsColor() CXX11_OVERRIDE
+645,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,81,"  int vprintf(const char* format, va_list va) CXX11_OVERRIDE"
+646,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,53,"  virtual size_t onRead(void* ptr, size_t count) CXX11_OVERRIDE"
+647,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,55,"  virtual size_t onWrite(const void* ptr, size_t count) CXX11_OVERRIDE"
+648,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,57,"  virtual char* onGets(char* s, int size) CXX11_OVERRIDE"
+649,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,58,"  virtual int onVprintf(const char* format, va_list va) CXX11_OVERRIDE"
+650,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,60,  virtual int onFlush() CXX11_OVERRIDE
+651,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,62,  virtual int onClose() CXX11_OVERRIDE
+652,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,63,  virtual bool onSupportsColor() CXX11_OVERRIDE
+653,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,64,  virtual bool isError() const CXX11_OVERRIDE
+654,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,65,  virtual bool isEOF() const CXX11_OVERRIDE
+655,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Logger.cc,"Logger::~Logger() = default;
+Logger::~Logger()
+{
+}
+",2015-12-27 18:40:08 +0900,66,  virtual bool isOpen() const CXX11_OVERRIDE
+656,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,158,  EchoWebSocketHandler(int fd) : fd_(fd) {  ^
+657,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,322,  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}  ^
+658,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,392,"  ListenEventHandler(int fd) : fd_(fd), cfd_(-1) {}  ^"
+659,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,174,  virtual int on_read_event() {              ^
+660,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,181,  virtual int on_write_event() {              ^
+661,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,206,  virtual bool want_read() { return wslay_event_want_read(ctx_)
+662,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,207,  virtual bool want_write() { return wslay_event_want_write(ctx_)
+663,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,208,  virtual int fd() const { return fd_
+664,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,209,  virtual bool finish() { return !want_read() && !want_write()
+665,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,210,  virtual EventHandler *next() { return 0
+666,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,275,  virtual int on_read_event() { return 0
+667,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,276,  virtual int on_write_event() {              ^
+668,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,299,  virtual bool want_read() { return false
+669,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,300,  virtual bool want_write() { return true
+670,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,301,  virtual int fd() const { return fd_
+671,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,302,  virtual bool finish() { return off_ == resheaders_.size()
+672,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,303,  virtual EventHandler *next() {                        ^
+673,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,328,  virtual int on_read_event() {              ^
+674,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,369,  virtual int on_write_event() { return 0
+675,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,370,  virtual bool want_read() { return true
+676,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,371,  virtual bool want_write() { return false
+677,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,372,  virtual int fd() const { return fd_
+678,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,373,  virtual bool finish() { return !accept_key_.empty()
+679,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,374,  virtual EventHandler *next() {                        ^
+680,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,397,  virtual int on_read_event() {              ^
+681,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,408,  virtual int on_write_event() { return 0
+682,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,409,  virtual bool want_read() { return true
+683,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,410,  virtual bool want_write() { return false
+684,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,411,  virtual int fd() const { return fd_
+685,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,412,  virtual bool finish() { return false
+686,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,413,  virtual EventHandler *next() {                        ^
+687,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,219,  EchoWebSocketHandler *sv = (EchoWebSocketHandler *)user_data
+688,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,233,  EchoWebSocketHandler *sv = (EchoWebSocketHandler *)user_data
+689,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,472,      EventHandler *eh = (EventHandler *)events[n].data.ptr
+690,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,330,    ssize_t r
+691,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,331,    std::string client_key
+692,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,305,      int fd = fd_
+693,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,376,      int fd = fd_
+694,aria2/aria2,63f6ed726eec62d97ab6dfbafaebd1485703793f,deps/wslay/examples/echoserv.cc,"  HttpHandshakeRecvHandler(int fd) : fd_(fd) {}
+",2021-08-13 00:00:29 +0900,416,      int fd = cfd_
+695,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Signature.cc,,2016-08-29 16:52:20 +0200,57,  Time(time_t sec)
+696,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Signature.cc,,2016-08-29 16:52:20 +0200,60,  File(const std::string& name)
+697,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Signature.cc,,2016-08-29 16:52:20 +0200,136,  DerefEqual(const T& t) : target(t) {}  ^
+698,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Signature.cc,,2016-08-29 16:52:20 +0200,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+699,aria2/aria2,366e2e8f795e82e2c8472bcf1cd0a892550789a9,src/Signature.cc,,2016-08-29 16:52:20 +0200,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+700,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,48,  BufferedFile(FILE* fp)
+701,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,51,  MessageDigest(std::unique_ptr<MessageDigestImpl> impl)
+702,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,136,  DerefEqual(const T& t) : target(t) {}  ^
+703,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+704,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+705,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,59,"  virtual bool addCredentialFile(const std::string& certfile,               ^"
+706,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,62,  virtual bool addSystemTrustedCACerts() CXX11_OVERRIDE { return true
+707,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,65,  virtual bool addTrustedCACertFile(const std::string& certfile) CXX11_OVERRIDE
+708,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,67,  virtual bool good() const CXX11_OVERRIDE { return true
+709,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,69,  virtual TLSSessionSide getSide() const CXX11_OVERRIDE { return side_
+710,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,71,  virtual bool getVerifyPeer() const CXX11_OVERRIDE { return verifyPeer_
+711,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,73,  virtual void setVerifyPeer(bool verify) CXX11_OVERRIDE               ^
+712,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,62,  virtual size_t write(const char* str) CXX11_OVERRIDE
+713,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,72,  int flush() CXX11_OVERRIDE
+714,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,77,  bool supportsColor() CXX11_OVERRIDE
+715,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,81,"  int vprintf(const char* format, va_list va) CXX11_OVERRIDE"
+716,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,53,"  virtual size_t onRead(void* ptr, size_t count) CXX11_OVERRIDE"
+717,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,55,"  virtual size_t onWrite(const void* ptr, size_t count) CXX11_OVERRIDE"
+718,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,57,"  virtual char* onGets(char* s, int size) CXX11_OVERRIDE"
+719,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,58,"  virtual int onVprintf(const char* format, va_list va) CXX11_OVERRIDE"
+720,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,60,  virtual int onFlush() CXX11_OVERRIDE
+721,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,62,  virtual int onClose() CXX11_OVERRIDE
+722,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,63,  virtual bool onSupportsColor() CXX11_OVERRIDE
+723,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,64,  virtual bool isError() const CXX11_OVERRIDE
+724,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,65,  virtual bool isEOF() const CXX11_OVERRIDE
+725,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,66,  virtual bool isOpen() const CXX11_OVERRIDE
+726,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,48,  BufferedFile(FILE* fp)
+727,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,51,  MessageDigest(std::unique_ptr<MessageDigestImpl> impl)
+728,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,136,  DerefEqual(const T& t) : target(t) {}  ^
+729,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+730,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,43,  virtual std::shared_ptr<Exception> copy() const CXX11_OVERRIDE
+731,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,59,"  virtual bool addCredentialFile(const std::string& certfile,               ^"
+732,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,62,  virtual bool addSystemTrustedCACerts() CXX11_OVERRIDE { return true
+733,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,65,  virtual bool addTrustedCACertFile(const std::string& certfile) CXX11_OVERRIDE
+734,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,67,  virtual bool good() const CXX11_OVERRIDE { return true
+735,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,69,  virtual TLSSessionSide getSide() const CXX11_OVERRIDE { return side_
+736,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,71,  virtual bool getVerifyPeer() const CXX11_OVERRIDE { return verifyPeer_
+737,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,73,  virtual void setVerifyPeer(bool verify) CXX11_OVERRIDE               ^
+738,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,62,  virtual size_t write(const char* str) CXX11_OVERRIDE
+739,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,72,  int flush() CXX11_OVERRIDE
+740,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,77,  bool supportsColor() CXX11_OVERRIDE
+741,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,81,"  int vprintf(const char* format, va_list va) CXX11_OVERRIDE"
+742,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,53,"  virtual size_t onRead(void* ptr, size_t count) CXX11_OVERRIDE"
+743,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,55,"  virtual size_t onWrite(const void* ptr, size_t count) CXX11_OVERRIDE"
+744,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,57,"  virtual char* onGets(char* s, int size) CXX11_OVERRIDE"
+745,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,58,"  virtual int onVprintf(const char* format, va_list va) CXX11_OVERRIDE"
+746,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,60,  virtual int onFlush() CXX11_OVERRIDE
+747,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,62,  virtual int onClose() CXX11_OVERRIDE
+748,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,63,  virtual bool onSupportsColor() CXX11_OVERRIDE
+749,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,64,  virtual bool isError() const CXX11_OVERRIDE
+750,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,65,  virtual bool isEOF() const CXX11_OVERRIDE
+751,aria2/aria2,e0a827ff98e665a118e2001dfe29b14847a33070,src/AppleTLSContext.cc,"    CFRef() : ref_(nullptr) {}
+",2014-05-29 19:38:33 +0200,66,  virtual bool isOpen() const CXX11_OVERRIDE

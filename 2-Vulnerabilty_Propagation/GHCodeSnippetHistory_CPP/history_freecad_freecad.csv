@@ -1,0 +1,793 @@
+,repo,origin_commit,file,code_context,commit_date,line_vuln,code_vuln
+0,freecad/freecad,8aff4a750351b609dfab12dcb550651777957d1b,src/Base/Axis.cpp,"Axis::Axis(const Vector3d& Orig, const Vector3d& Dir)
+{
+    this->_base = Orig;
+    this->_dir = Dir;
+}
+",2011-10-10 13:44:52 +0000,,
+1,freecad/freecad,103de43a4e111d20bf66cc0a095bb49f9595cbab,src/Gui/DlgUndoRedo.cpp,"++ b/src/Gui/DlgUndoRedo.cpp
+UndoDialog::UndoDialog( QWidget* parent )
+  : QMenu( parent )
+{
+    connect(this, SIGNAL(aboutToShow()), this, SLOT(onFetchInfo()));
+}
+",2023-01-12 15:13:16 +0100,,
+2,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,85,  {}   ^
+3,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,158,  MeshGeomEdge () : _bBorder(false) {}                                     ^
+4,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,374,  ~MeshGeomFacet () { }                      ^
+5,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,583,  MeshPointArray () { }                      ^
+6,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,637,    MeshFacetArray () { }                        ^
+7,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,347,    MeshCollector(){}                    ^
+8,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,269,"        std::fill(_fCoeff, _fCoeff+10, 0.0)"
+9,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,349,    ~SurfaceFit() override{}                           ^
+10,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,501,        pImplSurf = new Wm4::QuadricSurface<double>( dKoeff )
+11,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,501,        pImplSurf = new Wm4::QuadricSurface<double>( dKoeff )
+12,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,1087,    unsigned short side
+13,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,686,    explicit MeshPointModifier(MeshPointArray& points)                                               ^
+14,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,707,    explicit MeshFacetModifier(MeshFacetArray& facets)                                               ^
+15,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,355,    explicit PointCollector(std::vector<PointIndex>& ind) : indices(ind){}                                                     ^
+16,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,373,    explicit FacetCollector(std::vector<FacetIndex>& ind) : indices(ind){}                                                     ^
+17,freecad/freecad,8aff4a750351b609dfab12dcb550651777957d1b,src/Base/Axis.cpp,"Axis::Axis(const Vector3d& Orig, const Vector3d& Dir)
+{
+    this->_base = Orig;
+    this->_dir = Dir;
+}
+",2023-01-12 15:13:16 +0100,,
+18,freecad/freecad,103de43a4e111d20bf66cc0a095bb49f9595cbab,src/Gui/DlgUndoRedo.cpp,"++ b/src/Gui/DlgUndoRedo.cpp
+UndoDialog::UndoDialog( QWidget* parent )
+  : QMenu( parent )
+{
+    connect(this, SIGNAL(aboutToShow()), this, SLOT(onFetchInfo()));
+}
+",2023-01-12 15:13:16 +0100,,
+19,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,85,  {}   ^
+20,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,158,  MeshGeomEdge () : _bBorder(false) {}                                     ^
+21,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,374,  ~MeshGeomFacet () { }                      ^
+22,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,583,  MeshPointArray () { }                      ^
+23,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,637,    MeshFacetArray () { }                        ^
+24,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,347,    MeshCollector(){}                    ^
+25,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,269,"        std::fill(_fCoeff, _fCoeff+10, 0.0)"
+26,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,349,    ~SurfaceFit() override{}                           ^
+27,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,501,        pImplSurf = new Wm4::QuadricSurface<double>( dKoeff )
+28,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,501,        pImplSurf = new Wm4::QuadricSurface<double>( dKoeff )
+29,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,1087,    unsigned short side
+30,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,686,    explicit MeshPointModifier(MeshPointArray& points)                                               ^
+31,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,707,    explicit MeshFacetModifier(MeshFacetArray& facets)                                               ^
+32,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,355,    explicit PointCollector(std::vector<PointIndex>& ind) : indices(ind){}                                                     ^
+33,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,373,    explicit FacetCollector(std::vector<FacetIndex>& ind) : indices(ind){}                                                     ^
+34,freecad/freecad,8aff4a750351b609dfab12dcb550651777957d1b,src/Base/Axis.cpp,"Axis::Axis(const Vector3d& Orig, const Vector3d& Dir)
+{
+    this->_base = Orig;
+    this->_dir = Dir;
+}
+",2023-01-12 15:13:16 +0100,,
+35,freecad/freecad,103de43a4e111d20bf66cc0a095bb49f9595cbab,src/Gui/DlgUndoRedo.cpp,"++ b/src/Gui/DlgUndoRedo.cpp
+UndoDialog::UndoDialog( QWidget* parent )
+  : QMenu( parent )
+{
+    connect(this, SIGNAL(aboutToShow()), this, SLOT(onFetchInfo()));
+}
+",2023-01-12 15:13:16 +0100,,
+36,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,85,  {}   ^
+37,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,158,  MeshGeomEdge () : _bBorder(false) {}                                     ^
+38,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,374,  ~MeshGeomFacet () { }                      ^
+39,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,583,  MeshPointArray () { }                      ^
+40,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,637,    MeshFacetArray () { }                        ^
+41,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,347,    MeshCollector(){}                    ^
+42,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,269,"        std::fill(_fCoeff, _fCoeff+10, 0.0)"
+43,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,349,    ~SurfaceFit() override{}                           ^
+44,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,501,        pImplSurf = new Wm4::QuadricSurface<double>( dKoeff )
+45,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,501,        pImplSurf = new Wm4::QuadricSurface<double>( dKoeff )
+46,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,1087,    unsigned short side
+47,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,686,    explicit MeshPointModifier(MeshPointArray& points)                                               ^
+48,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,707,    explicit MeshFacetModifier(MeshFacetArray& facets)                                               ^
+49,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,355,    explicit PointCollector(std::vector<PointIndex>& ind) : indices(ind){}                                                     ^
+50,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,373,    explicit FacetCollector(std::vector<FacetIndex>& ind) : indices(ind){}                                                     ^
+51,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,86,  {}   ^
+52,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,159,  MeshGeomEdge () : _bBorder(false) {}                                     ^
+53,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,375,  ~MeshGeomFacet () { }                      ^
+54,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,584,  MeshPointArray () { }                      ^
+55,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,638,    MeshFacetArray () { }                        ^
+56,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,48,    MeshFacetVisitor() { }                         ^
+57,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,126,    MeshTopFacetVisitor (std::vector<FacetIndex> &raulNB) : _raulNeighbours(raulNB) {}                                                                                     ^
+58,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,179,    MeshPointVisitor() { }                         ^
+59,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,67,"        : MeshSurfaceSegment(minFacets), kernel(mesh), tolerance(tol) {}                                                                       ^"
+60,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,93,    AbstractSurfaceFit(){}                         ^
+61,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,192,"        : MeshSurfaceSegment(minFacets), info(ci) {}                                                   ^"
+62,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,202,"        : MeshCurvatureSurfaceSegment(ci, minFacets), tolerance(tol) {}                                                                      ^"
+63,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,215,"        : MeshCurvatureSurfaceSegment(ci, minFacets), toleranceMin(tolMin), toleranceMax(tolMax) { curvature = curv"
+64,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,229,"        : MeshCurvatureSurfaceSegment(ci, minFacets), tolerance(tol) { curvature = curv"
+65,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,244,"          toleranceMin(tolMin), toleranceMax(tolMax) {}                                                      ^"
+66,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,348,    MeshCollector(){}                    ^
+67,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,272,"        std::fill(_fCoeff, _fCoeff+10, 0.0)"
+68,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,352,    ~SurfaceFit() override{}                           ^
+69,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,504,        pImplSurf = new Wm4::QuadricSurface<double>( dKoeff )
+70,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,504,        pImplSurf = new Wm4::QuadricSurface<double>( dKoeff )
+71,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,1088,    unsigned short side
+72,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,687,    explicit MeshPointModifier(MeshPointArray& points)                                               ^
+73,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,708,    explicit MeshFacetModifier(MeshFacetArray& facets)                                               ^
+74,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,126,    MeshTopFacetVisitor (std::vector<FacetIndex> &raulNB) : _raulNeighbours(raulNB) {}                                                  ^
+75,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,356,    explicit PointCollector(std::vector<PointIndex>& ind) : indices(ind){}                                                     ^
+76,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,374,    explicit FacetCollector(std::vector<FacetIndex>& ind) : indices(ind){}                                                     ^
+77,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,85,  {}   ^
+78,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,158,  MeshGeomEdge () : _bBorder(false) {}                                     ^
+79,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,374,  ~MeshGeomFacet () { }                      ^
+80,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,583,  MeshPointArray () { }                      ^
+81,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,637,    MeshFacetArray () { }                        ^
+82,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,347,    MeshCollector(){}                    ^
+83,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,269,"        std::fill(_fCoeff, _fCoeff+10, 0.0)"
+84,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,349,    ~SurfaceFit() override{}                           ^
+85,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,501,        pImplSurf = new Wm4::QuadricSurface<double>( dKoeff )
+86,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,501,        pImplSurf = new Wm4::QuadricSurface<double>( dKoeff )
+87,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,1087,    unsigned short side
+88,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,686,    explicit MeshPointModifier(MeshPointArray& points)                                               ^
+89,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,707,    explicit MeshFacetModifier(MeshFacetArray& facets)                                               ^
+90,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,355,    explicit PointCollector(std::vector<PointIndex>& ind) : indices(ind){}                                                     ^
+91,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,373,    explicit FacetCollector(std::vector<FacetIndex>& ind) : indices(ind){}                                                     ^
+92,freecad/freecad,8aff4a750351b609dfab12dcb550651777957d1b,src/Base/Axis.cpp,"Axis::Axis(const Vector3d& Orig, const Vector3d& Dir)
+{
+    this->_base = Orig;
+    this->_dir = Dir;
+}
+",2013-02-17 08:28:01 +0100,,
+93,freecad/freecad,103de43a4e111d20bf66cc0a095bb49f9595cbab,src/Gui/DlgUndoRedo.cpp,"++ b/src/Gui/DlgUndoRedo.cpp
+UndoDialog::UndoDialog( QWidget* parent )
+  : QMenu( parent )
+{
+    connect(this, SIGNAL(aboutToShow()), this, SLOT(onFetchInfo()));
+}
+",2023-01-12 15:13:16 +0100,,
+94,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,85,  {}   ^
+95,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,158,  MeshGeomEdge () : _bBorder(false) {}                                     ^
+96,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,374,  ~MeshGeomFacet () { }                      ^
+97,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,583,  MeshPointArray () { }                      ^
+98,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,637,    MeshFacetArray () { }                        ^
+99,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,347,    MeshCollector(){}                    ^
+100,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,269,"        std::fill(_fCoeff, _fCoeff+10, 0.0)"
+101,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,349,    ~SurfaceFit() override{}                           ^
+102,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,501,        pImplSurf = new Wm4::QuadricSurface<double>( dKoeff )
+103,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,501,        pImplSurf = new Wm4::QuadricSurface<double>( dKoeff )
+104,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,1087,    unsigned short side
+105,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,686,    explicit MeshPointModifier(MeshPointArray& points)                                               ^
+106,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,707,    explicit MeshFacetModifier(MeshFacetArray& facets)                                               ^
+107,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,355,    explicit PointCollector(std::vector<PointIndex>& ind) : indices(ind){}                                                     ^
+108,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"void AbstractSmoothing::initialize(Component comp, Continuity cont)
+{
+    this->component = comp;
+    this->continuity = cont;
+}
+",2023-01-12 15:13:16 +0100,373,    explicit FacetCollector(std::vector<FacetIndex>& ind) : indices(ind){}                                                     ^
+109,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,86,  {}   ^
+110,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,159,  MeshGeomEdge () : _bBorder(false) {}                                     ^
+111,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,375,  ~MeshGeomFacet () { }                      ^
+112,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,584,  MeshPointArray () { }                      ^
+113,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,638,    MeshFacetArray () { }                        ^
+114,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,48,    MeshFacetVisitor() { }                         ^
+115,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,126,    MeshTopFacetVisitor (std::vector<FacetIndex> &raulNB) : _raulNeighbours(raulNB) {}                                                                                     ^
+116,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,179,    MeshPointVisitor() { }                         ^
+117,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,67,"        : MeshSurfaceSegment(minFacets), kernel(mesh), tolerance(tol) {}                                                                       ^"
+118,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,93,    AbstractSurfaceFit(){}                         ^
+119,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,192,"        : MeshSurfaceSegment(minFacets), info(ci) {}                                                   ^"
+120,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,202,"        : MeshCurvatureSurfaceSegment(ci, minFacets), tolerance(tol) {}                                                                      ^"
+121,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,215,"        : MeshCurvatureSurfaceSegment(ci, minFacets), toleranceMin(tolMin), toleranceMax(tolMax) { curvature = curv"
+122,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,229,"        : MeshCurvatureSurfaceSegment(ci, minFacets), tolerance(tol) { curvature = curv"
+123,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,244,"          toleranceMin(tolMin), toleranceMax(tolMax) {}                                                      ^"
+124,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,348,    MeshCollector(){}                    ^
+125,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,272,"        std::fill(_fCoeff, _fCoeff+10, 0.0)"
+126,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,352,    ~SurfaceFit() override{}                           ^
+127,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,504,        pImplSurf = new Wm4::QuadricSurface<double>( dKoeff )
+128,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,504,        pImplSurf = new Wm4::QuadricSurface<double>( dKoeff )
+129,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,1088,    unsigned short side
+130,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,687,    explicit MeshPointModifier(MeshPointArray& points)                                               ^
+131,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,708,    explicit MeshFacetModifier(MeshFacetArray& facets)                                               ^
+132,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,126,    MeshTopFacetVisitor (std::vector<FacetIndex> &raulNB) : _raulNeighbours(raulNB) {}                                                  ^
+133,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,356,    explicit PointCollector(std::vector<PointIndex>& ind) : indices(ind){}                                                     ^
+134,freecad/freecad,390e09db3258e4807a3d4b2993c1723480ae5350,src/Mod/Mesh/App/Core/Segmentation.cpp,"++ b/src/Mod/Mesh/App/Core/Segmentation.cpp
+MeshSurfaceVisitor::~MeshSurfaceVisitor ()
+{
+}
+",2022-02-18 13:05:06 +0100,374,    explicit FacetCollector(std::vector<FacetIndex>& ind) : indices(ind){}                                                     ^
+135,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,85,  {}   ^
+136,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,158,  MeshGeomEdge () : _bBorder(false) {}                                     ^
+137,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,374,  ~MeshGeomFacet () { }                      ^
+138,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,583,  MeshPointArray () { }                      ^
+139,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,637,    MeshFacetArray () { }                        ^
+140,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,347,    MeshCollector(){}                    ^
+141,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,269,"        std::fill(_fCoeff, _fCoeff+10, 0.0)"
+142,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,349,    ~SurfaceFit() override{}                           ^
+143,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,501,        pImplSurf = new Wm4::QuadricSurface<double>( dKoeff )
+144,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,501,        pImplSurf = new Wm4::QuadricSurface<double>( dKoeff )
+145,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,1087,    unsigned short side
+146,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,686,    explicit MeshPointModifier(MeshPointArray& points)                                               ^
+147,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,707,    explicit MeshFacetModifier(MeshFacetArray& facets)                                               ^
+148,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,355,    explicit PointCollector(std::vector<PointIndex>& ind) : indices(ind){}                                                     ^
+149,freecad/freecad,69dd6ea965ae0efd026855b8ba99e4c1465d96f5,src/Mod/Mesh/App/Core/Smoothing.cpp,"MeshSmoothing::~MeshSmoothing()
+{
+}
+",2013-02-17 08:28:01 +0100,373,    explicit FacetCollector(std::vector<FacetIndex>& ind) : indices(ind){}                                                     ^

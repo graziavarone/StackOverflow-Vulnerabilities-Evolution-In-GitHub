@@ -1,0 +1,265 @@
+,repo,origin_commit,file,code_context,commit_date,line_vuln,code_vuln
+0,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/util.cpp,"const char *bmd_audio_connection_to_name(BMDAudioConnection connection)
+{
+	switch (connection) {
+	case bmdAudioConnectionEmbedded:
+		return ""Embedded"";
+	case bmdAudioConnectionAESEBU:
+		return ""AES/EBU"";
+	case bmdAudioConnectionAnalog:
+		return ""Analog"";
+	case bmdAudioConnectionAnalogXLR:
+		return ""Analog XLR"";
+	case bmdAudioConnectionAnalogRCA:
+		return ""Analog RCA"";
+	case bmdAudioConnectionMicrophone:
+		return ""Microphone"";
+	case bmdAudioConnectionHeadphones:
+		return ""Headphones"";
+	default:
+		return ""Unknown"";
+	}
+}",2019-06-23 23:49:10 -0700,32, DeckLinkDevice(IDeckLink *device)
+1,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/util.cpp,"const char *bmd_audio_connection_to_name(BMDAudioConnection connection)
+{
+	switch (connection) {
+	case bmdAudioConnectionEmbedded:
+		return ""Embedded"";
+	case bmdAudioConnectionAESEBU:
+		return ""AES/EBU"";
+	case bmdAudioConnectionAnalog:
+		return ""Analog"";
+	case bmdAudioConnectionAnalogXLR:
+		return ""Analog XLR"";
+	case bmdAudioConnectionAnalogRCA:
+		return ""Analog RCA"";
+	case bmdAudioConnectionMicrophone:
+		return ""Microphone"";
+	case bmdAudioConnectionHeadphones:
+		return ""Headphones"";
+	default:
+		return ""Unknown"";
+	}
+}",2019-06-23 23:49:10 -0700,61, inline bool IsDevice(IDeckLink *device_) { return device_ == device
+2,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/util.cpp,"const char *bmd_audio_connection_to_name(BMDAudioConnection connection)
+{
+	switch (connection) {
+	case bmdAudioConnectionEmbedded:
+		return ""Embedded"";
+	case bmdAudioConnectionAESEBU:
+		return ""AES/EBU"";
+	case bmdAudioConnectionAnalog:
+		return ""Analog"";
+	case bmdAudioConnectionAnalogXLR:
+		return ""Analog XLR"";
+	case bmdAudioConnectionAnalogRCA:
+		return ""Analog RCA"";
+	case bmdAudioConnectionMicrophone:
+		return ""Microphone"";
+	case bmdAudioConnectionHeadphones:
+		return ""Headphones"";
+	default:
+		return ""Unknown"";
+	}
+}",2019-06-23 23:49:10 -0700,133,    bmdFrameHasNoInputSource                                     = 1 << 31                                                                     ^
+3,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/util.cpp,"const char *bmd_audio_connection_to_name(BMDAudioConnection connection)
+{
+	switch (connection) {
+	case bmdAudioConnectionEmbedded:
+		return ""Embedded"";
+	case bmdAudioConnectionAESEBU:
+		return ""AES/EBU"";
+	case bmdAudioConnectionAnalog:
+		return ""Analog"";
+	case bmdAudioConnectionAnalogXLR:
+		return ""Analog XLR"";
+	case bmdAudioConnectionAnalogRCA:
+		return ""Analog RCA"";
+	case bmdAudioConnectionMicrophone:
+		return ""Microphone"";
+	case bmdAudioConnectionHeadphones:
+		return ""Headphones"";
+	default:
+		return ""Unknown"";
+	}
+}",2019-06-23 23:49:10 -0700,133,    bmdFrameHasNoInputSource                                     = 1 << 31                                                                     ^
+4,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/util.cpp,"const char *bmd_audio_connection_to_name(BMDAudioConnection connection)
+{
+	switch (connection) {
+	case bmdAudioConnectionEmbedded:
+		return ""Embedded"";
+	case bmdAudioConnectionAESEBU:
+		return ""AES/EBU"";
+	case bmdAudioConnectionAnalog:
+		return ""Analog"";
+	case bmdAudioConnectionAnalogXLR:
+		return ""Analog XLR"";
+	case bmdAudioConnectionAnalogRCA:
+		return ""Analog RCA"";
+	case bmdAudioConnectionMicrophone:
+		return ""Microphone"";
+	case bmdAudioConnectionHeadphones:
+		return ""Headphones"";
+	default:
+		return ""Unknown"";
+	}
+}",2019-06-23 23:49:10 -0700,129,    bmdFrameHasNoInputSource                                     = 1 << 31                                                                     ^
+5,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/util.cpp,"const char *bmd_audio_connection_to_name(BMDAudioConnection connection)
+{
+	switch (connection) {
+	case bmdAudioConnectionEmbedded:
+		return ""Embedded"";
+	case bmdAudioConnectionAESEBU:
+		return ""AES/EBU"";
+	case bmdAudioConnectionAnalog:
+		return ""Analog"";
+	case bmdAudioConnectionAnalogXLR:
+		return ""Analog XLR"";
+	case bmdAudioConnectionAnalogRCA:
+		return ""Analog RCA"";
+	case bmdAudioConnectionMicrophone:
+		return ""Microphone"";
+	case bmdAudioConnectionHeadphones:
+		return ""Headphones"";
+	default:
+		return ""Unknown"";
+	}
+}",2019-06-23 23:49:10 -0700,129,    bmdFrameHasNoInputSource                                     = 1 << 31                                                                     ^
+6,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/DecklinkOutput.cpp,"void DeckLinkOutput::SetSize(int width, int height)
+{
+	this->width = width;
+	this->height = height;
+}
+",2019-06-23 23:49:10 -0700,30, void Deactivate() override
+7,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/DecklinkOutput.cpp,"void DeckLinkOutput::SetSize(int width, int height)
+{
+	this->width = width;
+	this->height = height;
+}
+",2019-06-23 23:49:10 -0700,32, DeckLinkDevice(IDeckLink *device)
+8,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/DecklinkOutput.cpp,"void DeckLinkOutput::SetSize(int width, int height)
+{
+	this->width = width;
+	this->height = height;
+}
+",2019-06-23 23:49:10 -0700,18, DecklinkBase(DeckLinkDeviceDiscovery *discovery_)
+9,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/DecklinkOutput.cpp,"void DeckLinkOutput::SetSize(int width, int height)
+{
+	this->width = width;
+	this->height = height;
+}
+",2019-06-23 23:49:10 -0700,46,  for (DeviceChangeInfo &curCB : callbacks) {                         ^
+10,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/DecklinkOutput.cpp,"void DeckLinkOutput::SetSize(int width, int height)
+{
+	this->width = width;
+	this->height = height;
+}
+",2019-06-23 23:49:10 -0700,59,   DeviceChangeInfo &curCB = callbacks[i]
+11,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/DecklinkOutput.cpp,"void DeckLinkOutput::SetSize(int width, int height)
+{
+	this->width = width;
+	this->height = height;
+}
+",2019-06-23 23:49:10 -0700,61, inline bool IsDevice(IDeckLink *device_) { return device_ == device
+12,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/DecklinkOutput.cpp,"void DeckLinkOutput::SetSize(int width, int height)
+{
+	this->width = width;
+	this->height = height;
+}
+",2019-06-23 23:49:10 -0700,47,   if (curCB.callback == callback && curCB.param == param)^
+13,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/DecklinkOutput.cpp,"void DeckLinkOutput::SetSize(int width, int height)
+{
+	this->width = width;
+	this->height = height;
+}
+",2019-06-23 23:49:10 -0700,133,    bmdFrameHasNoInputSource                                     = 1 << 31                                                                     ^
+14,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/DecklinkOutput.cpp,"void DeckLinkOutput::SetSize(int width, int height)
+{
+	this->width = width;
+	this->height = height;
+}
+",2019-06-23 23:49:10 -0700,133,    bmdFrameHasNoInputSource                                     = 1 << 31                                                                     ^
+15,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/DecklinkOutput.cpp,"void DeckLinkOutput::SetSize(int width, int height)
+{
+	this->width = width;
+	this->height = height;
+}
+",2019-06-23 23:49:10 -0700,35, HRESULT STDMETHODCALLTYPE DeckLinkDeviceArrived(IDeckLink *device)
+16,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/DecklinkOutput.cpp,"void DeckLinkOutput::SetSize(int width, int height)
+{
+	this->width = width;
+	this->height = height;
+}
+",2019-06-23 23:49:10 -0700,36, HRESULT STDMETHODCALLTYPE DeckLinkDeviceRemoved(IDeckLink *device)
+17,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/DecklinkOutput.cpp,"void DeckLinkOutput::SetSize(int width, int height)
+{
+	this->width = width;
+	this->height = height;
+}
+",2019-06-23 23:49:10 -0700,78, ULONG STDMETHODCALLTYPE AddRef(void)
+18,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/DecklinkOutput.cpp,"void DeckLinkOutput::SetSize(int width, int height)
+{
+	this->width = width;
+	this->height = height;
+}
+",2019-06-23 23:49:10 -0700,79," HRESULT STDMETHODCALLTYPE QueryInterface(REFIID iid, LPVOID *ppv)"
+19,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/DecklinkOutput.cpp,"void DeckLinkOutput::SetSize(int width, int height)
+{
+	this->width = width;
+	this->height = height;
+}
+",2019-06-23 23:49:10 -0700,80, ULONG STDMETHODCALLTYPE Release(void)
+20,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/DecklinkOutput.cpp,"void DeckLinkOutput::SetSize(int width, int height)
+{
+	this->width = width;
+	this->height = height;
+}
+",2019-06-23 23:49:10 -0700,94," VideoInputFrameArrived(IDeckLinkVideoInputFrame *videoFrame, ^"
+21,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/DecklinkOutput.cpp,"void DeckLinkOutput::SetSize(int width, int height)
+{
+	this->width = width;
+	this->height = height;
+}
+",2019-06-23 23:49:10 -0700,96, HRESULT STDMETHODCALLTYPE VideoInputFormatChanged(                           ^
+22,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/DecklinkOutput.cpp,"void DeckLinkOutput::SetSize(int width, int height)
+{
+	this->width = width;
+	this->height = height;
+}
+",2019-06-23 23:49:10 -0700,101, ULONG STDMETHODCALLTYPE AddRef(void)
+23,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/DecklinkOutput.cpp,"void DeckLinkOutput::SetSize(int width, int height)
+{
+	this->width = width;
+	this->height = height;
+}
+",2019-06-23 23:49:10 -0700,102," HRESULT STDMETHODCALLTYPE QueryInterface(REFIID iid, LPVOID *ppv)"
+24,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/DecklinkOutput.cpp,"void DeckLinkOutput::SetSize(int width, int height)
+{
+	this->width = width;
+	this->height = height;
+}
+",2019-06-23 23:49:10 -0700,103, ULONG STDMETHODCALLTYPE Release(void)
+25,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/DecklinkOutput.cpp,"void DeckLinkOutput::SetSize(int width, int height)
+{
+	this->width = width;
+	this->height = height;
+}
+",2019-06-23 23:49:10 -0700,54," inline void RemoveCallback(DeviceChangeCallback callback, void *param)                                                 ^"
+26,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/DecklinkOutput.cpp,"void DeckLinkOutput::SetSize(int width, int height)
+{
+	this->width = width;
+	this->height = height;
+}
+",2019-06-23 23:49:10 -0700,54," inline void RemoveCallback(DeviceChangeCallback callback, void *param)                                                                 ^"
+27,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/DecklinkOutput.cpp,"void DeckLinkOutput::SetSize(int width, int height)
+{
+	this->width = width;
+	this->height = height;
+}
+",2019-06-23 23:49:10 -0700,129,    bmdFrameHasNoInputSource                                     = 1 << 31                                                                     ^
+28,obsproject/obs-studio,f53df7da64d2dfc542c24656720b2f47c8957164,plugins/decklink/DecklinkOutput.cpp,"void DeckLinkOutput::SetSize(int width, int height)
+{
+	this->width = width;
+	this->height = height;
+}
+",2019-06-23 23:49:10 -0700,129,    bmdFrameHasNoInputSource                                     = 1 << 31                                                                     ^

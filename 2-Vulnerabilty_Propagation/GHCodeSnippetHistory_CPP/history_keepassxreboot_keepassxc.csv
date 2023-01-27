@@ -1,0 +1,373 @@
+,repo,origin_commit,file,code_context,commit_date,line_vuln,code_vuln
+0,keepassxreboot/keepassxc,8324d03f0a015e62b6182843b4478226a5197090,src/sshagent/AgentSettingsPage.cpp,"++ b/src/sshagent/AgentSettingsPage.cpp
+AgentSettingsPage::~AgentSettingsPage()
+{
+
+}
+",2018-03-31 16:01:30 -0400,28,    AgentSettingsPage(DatabaseTabWidget* tabWidget)
+1,keepassxreboot/keepassxc,b045160e4fcd612def4c5cff55f9469baf12a738,src/sshagent/AgentSettingsPage.cpp,"AgentSettingsPage::~AgentSettingsPage()
+{
+
+}
+",2020-03-14 10:13:12 -0400,28,    AgentSettingsPage(DatabaseTabWidget* tabWidget)
+2,keepassxreboot/keepassxc,af4ecb4aa15506fed9a06fc56d4e4c05a498ba24,src/sshagent/AgentSettingsPage.cpp,"AgentSettingsPage::~AgentSettingsPage()
+{
+
+}
+",2020-10-05 20:41:00 -0400,,
+3,keepassxreboot/keepassxc,fae4f69b8cf09129444a513238daa53ab9713294,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2014-03-23 17:25:39 +0000,40,    AutoTypeAction* clone()
+4,keepassxreboot/keepassxc,fae4f69b8cf09129444a513238daa53ab9713294,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2014-03-23 17:25:39 +0000,41,    void accept(AutoTypeExecutor* executor)
+5,keepassxreboot/keepassxc,fae4f69b8cf09129444a513238daa53ab9713294,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2014-03-23 17:25:39 +0000,50,    AutoTypeAction* clone()
+6,keepassxreboot/keepassxc,fae4f69b8cf09129444a513238daa53ab9713294,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2014-03-23 17:25:39 +0000,51,    void accept(AutoTypeExecutor* executor)
+7,keepassxreboot/keepassxc,fae4f69b8cf09129444a513238daa53ab9713294,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2014-03-23 17:25:39 +0000,60,    AutoTypeAction* clone()
+8,keepassxreboot/keepassxc,fae4f69b8cf09129444a513238daa53ab9713294,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2014-03-23 17:25:39 +0000,61,    void accept(AutoTypeExecutor* executor)
+9,keepassxreboot/keepassxc,fae4f69b8cf09129444a513238daa53ab9713294,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2014-03-23 17:25:39 +0000,70,    AutoTypeAction* clone()
+10,keepassxreboot/keepassxc,fae4f69b8cf09129444a513238daa53ab9713294,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2014-03-23 17:25:39 +0000,71,    void accept(AutoTypeExecutor* executor)
+11,keepassxreboot/keepassxc,61c6962bf25485d30bc3455ed6df6d65a0b8aa62,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-01-30 00:29:01 -0800,40,    AutoTypeAction* clone()
+12,keepassxreboot/keepassxc,61c6962bf25485d30bc3455ed6df6d65a0b8aa62,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-01-30 00:29:01 -0800,41,    void accept(AutoTypeExecutor* executor)
+13,keepassxreboot/keepassxc,61c6962bf25485d30bc3455ed6df6d65a0b8aa62,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-01-30 00:29:01 -0800,50,    AutoTypeAction* clone()
+14,keepassxreboot/keepassxc,61c6962bf25485d30bc3455ed6df6d65a0b8aa62,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-01-30 00:29:01 -0800,51,    void accept(AutoTypeExecutor* executor)
+15,keepassxreboot/keepassxc,61c6962bf25485d30bc3455ed6df6d65a0b8aa62,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-01-30 00:29:01 -0800,60,    AutoTypeAction* clone()
+16,keepassxreboot/keepassxc,61c6962bf25485d30bc3455ed6df6d65a0b8aa62,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-01-30 00:29:01 -0800,61,    void accept(AutoTypeExecutor* executor)
+17,keepassxreboot/keepassxc,61c6962bf25485d30bc3455ed6df6d65a0b8aa62,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-01-30 00:29:01 -0800,70,    AutoTypeAction* clone()
+18,keepassxreboot/keepassxc,61c6962bf25485d30bc3455ed6df6d65a0b8aa62,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-01-30 00:29:01 -0800,71,    void accept(AutoTypeExecutor* executor)
+19,keepassxreboot/keepassxc,5d9039ea894d6435b0491a287b9e44584ce39808,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-05-12 23:40:02 +0200,40,    AutoTypeAction* clone()
+20,keepassxreboot/keepassxc,5d9039ea894d6435b0491a287b9e44584ce39808,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-05-12 23:40:02 +0200,41,    void accept(AutoTypeExecutor* executor)
+21,keepassxreboot/keepassxc,5d9039ea894d6435b0491a287b9e44584ce39808,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-05-12 23:40:02 +0200,50,    AutoTypeAction* clone()
+22,keepassxreboot/keepassxc,5d9039ea894d6435b0491a287b9e44584ce39808,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-05-12 23:40:02 +0200,51,    void accept(AutoTypeExecutor* executor)
+23,keepassxreboot/keepassxc,5d9039ea894d6435b0491a287b9e44584ce39808,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-05-12 23:40:02 +0200,60,    AutoTypeAction* clone()
+24,keepassxreboot/keepassxc,5d9039ea894d6435b0491a287b9e44584ce39808,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-05-12 23:40:02 +0200,61,    void accept(AutoTypeExecutor* executor)
+25,keepassxreboot/keepassxc,5d9039ea894d6435b0491a287b9e44584ce39808,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-05-12 23:40:02 +0200,70,    AutoTypeAction* clone()
+26,keepassxreboot/keepassxc,5d9039ea894d6435b0491a287b9e44584ce39808,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-05-12 23:40:02 +0200,71,    void accept(AutoTypeExecutor* executor)
+27,keepassxreboot/keepassxc,36250f518075d1b348eb4b63193590be5f0c608a,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2017-04-08 02:13:51 -0300,40,    AutoTypeAction* clone()
+28,keepassxreboot/keepassxc,36250f518075d1b348eb4b63193590be5f0c608a,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2017-04-08 02:13:51 -0300,41,    void accept(AutoTypeExecutor* executor)
+29,keepassxreboot/keepassxc,36250f518075d1b348eb4b63193590be5f0c608a,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2017-04-08 02:13:51 -0300,50,    AutoTypeAction* clone()
+30,keepassxreboot/keepassxc,36250f518075d1b348eb4b63193590be5f0c608a,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2017-04-08 02:13:51 -0300,51,    void accept(AutoTypeExecutor* executor)
+31,keepassxreboot/keepassxc,36250f518075d1b348eb4b63193590be5f0c608a,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2017-04-08 02:13:51 -0300,60,    AutoTypeAction* clone()
+32,keepassxreboot/keepassxc,36250f518075d1b348eb4b63193590be5f0c608a,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2017-04-08 02:13:51 -0300,61,    void accept(AutoTypeExecutor* executor)
+33,keepassxreboot/keepassxc,36250f518075d1b348eb4b63193590be5f0c608a,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2017-04-08 02:13:51 -0300,70,    AutoTypeAction* clone()
+34,keepassxreboot/keepassxc,36250f518075d1b348eb4b63193590be5f0c608a,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2017-04-08 02:13:51 -0300,71,    void accept(AutoTypeExecutor* executor)
+35,keepassxreboot/keepassxc,8324d03f0a015e62b6182843b4478226a5197090,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2018-03-31 16:01:30 -0400,43,    AutoTypeAction* clone()
+36,keepassxreboot/keepassxc,8324d03f0a015e62b6182843b4478226a5197090,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2018-03-31 16:01:30 -0400,44,    void accept(AutoTypeExecutor* executor)
+37,keepassxreboot/keepassxc,8324d03f0a015e62b6182843b4478226a5197090,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2018-03-31 16:01:30 -0400,53,    AutoTypeAction* clone()
+38,keepassxreboot/keepassxc,8324d03f0a015e62b6182843b4478226a5197090,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2018-03-31 16:01:30 -0400,54,    void accept(AutoTypeExecutor* executor)
+39,keepassxreboot/keepassxc,8324d03f0a015e62b6182843b4478226a5197090,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2018-03-31 16:01:30 -0400,63,    AutoTypeAction* clone()
+40,keepassxreboot/keepassxc,8324d03f0a015e62b6182843b4478226a5197090,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2018-03-31 16:01:30 -0400,64,    void accept(AutoTypeExecutor* executor)
+41,keepassxreboot/keepassxc,8324d03f0a015e62b6182843b4478226a5197090,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2018-03-31 16:01:30 -0400,73,    AutoTypeAction* clone()
+42,keepassxreboot/keepassxc,8324d03f0a015e62b6182843b4478226a5197090,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2018-03-31 16:01:30 -0400,74,    void accept(AutoTypeExecutor* executor)
+43,keepassxreboot/keepassxc,7a823e8dc7d2f149b51036dd918e66deef9affd9,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2018-10-31 14:19:01 +0100,,
+44,keepassxreboot/keepassxc,4d075077393ce7380214871b6ca47132fdee56ed,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2021-03-26 06:16:37 -0400,,
+45,keepassxreboot/keepassxc,8c9530e3ecff1e8c92702788c362e9fb1f99e23e,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2021-03-31 21:20:51 -0400,,
+46,keepassxreboot/keepassxc,8a7eb3695087c94f78b9c93676f6d36597f407c2,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2022-03-19 08:23:53 -0400,143,    AutoTypeMode(AutoTypeExecutor::Mode mode = AutoTypeExecutor::Mode::NORMAL)
+47,keepassxreboot/keepassxc,fae4f69b8cf09129444a513238daa53ab9713294,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2014-03-23 17:25:39 +0000,40,    AutoTypeAction* clone()
+48,keepassxreboot/keepassxc,fae4f69b8cf09129444a513238daa53ab9713294,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2014-03-23 17:25:39 +0000,41,    void accept(AutoTypeExecutor* executor)
+49,keepassxreboot/keepassxc,fae4f69b8cf09129444a513238daa53ab9713294,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2014-03-23 17:25:39 +0000,50,    AutoTypeAction* clone()
+50,keepassxreboot/keepassxc,fae4f69b8cf09129444a513238daa53ab9713294,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2014-03-23 17:25:39 +0000,51,    void accept(AutoTypeExecutor* executor)
+51,keepassxreboot/keepassxc,fae4f69b8cf09129444a513238daa53ab9713294,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2014-03-23 17:25:39 +0000,60,    AutoTypeAction* clone()
+52,keepassxreboot/keepassxc,fae4f69b8cf09129444a513238daa53ab9713294,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2014-03-23 17:25:39 +0000,61,    void accept(AutoTypeExecutor* executor)
+53,keepassxreboot/keepassxc,fae4f69b8cf09129444a513238daa53ab9713294,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2014-03-23 17:25:39 +0000,70,    AutoTypeAction* clone()
+54,keepassxreboot/keepassxc,fae4f69b8cf09129444a513238daa53ab9713294,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2014-03-23 17:25:39 +0000,71,    void accept(AutoTypeExecutor* executor)
+55,keepassxreboot/keepassxc,61c6962bf25485d30bc3455ed6df6d65a0b8aa62,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-01-30 00:29:01 -0800,40,    AutoTypeAction* clone()
+56,keepassxreboot/keepassxc,61c6962bf25485d30bc3455ed6df6d65a0b8aa62,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-01-30 00:29:01 -0800,41,    void accept(AutoTypeExecutor* executor)
+57,keepassxreboot/keepassxc,61c6962bf25485d30bc3455ed6df6d65a0b8aa62,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-01-30 00:29:01 -0800,50,    AutoTypeAction* clone()
+58,keepassxreboot/keepassxc,61c6962bf25485d30bc3455ed6df6d65a0b8aa62,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-01-30 00:29:01 -0800,51,    void accept(AutoTypeExecutor* executor)
+59,keepassxreboot/keepassxc,61c6962bf25485d30bc3455ed6df6d65a0b8aa62,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-01-30 00:29:01 -0800,60,    AutoTypeAction* clone()
+60,keepassxreboot/keepassxc,61c6962bf25485d30bc3455ed6df6d65a0b8aa62,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-01-30 00:29:01 -0800,61,    void accept(AutoTypeExecutor* executor)
+61,keepassxreboot/keepassxc,61c6962bf25485d30bc3455ed6df6d65a0b8aa62,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-01-30 00:29:01 -0800,70,    AutoTypeAction* clone()
+62,keepassxreboot/keepassxc,61c6962bf25485d30bc3455ed6df6d65a0b8aa62,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-01-30 00:29:01 -0800,71,    void accept(AutoTypeExecutor* executor)
+63,keepassxreboot/keepassxc,5d9039ea894d6435b0491a287b9e44584ce39808,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-05-12 23:40:02 +0200,40,    AutoTypeAction* clone()
+64,keepassxreboot/keepassxc,5d9039ea894d6435b0491a287b9e44584ce39808,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-05-12 23:40:02 +0200,41,    void accept(AutoTypeExecutor* executor)
+65,keepassxreboot/keepassxc,5d9039ea894d6435b0491a287b9e44584ce39808,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-05-12 23:40:02 +0200,50,    AutoTypeAction* clone()
+66,keepassxreboot/keepassxc,5d9039ea894d6435b0491a287b9e44584ce39808,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-05-12 23:40:02 +0200,51,    void accept(AutoTypeExecutor* executor)
+67,keepassxreboot/keepassxc,5d9039ea894d6435b0491a287b9e44584ce39808,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-05-12 23:40:02 +0200,60,    AutoTypeAction* clone()
+68,keepassxreboot/keepassxc,5d9039ea894d6435b0491a287b9e44584ce39808,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-05-12 23:40:02 +0200,61,    void accept(AutoTypeExecutor* executor)
+69,keepassxreboot/keepassxc,5d9039ea894d6435b0491a287b9e44584ce39808,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-05-12 23:40:02 +0200,70,    AutoTypeAction* clone()
+70,keepassxreboot/keepassxc,5d9039ea894d6435b0491a287b9e44584ce39808,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2015-05-12 23:40:02 +0200,71,    void accept(AutoTypeExecutor* executor)
+71,keepassxreboot/keepassxc,36250f518075d1b348eb4b63193590be5f0c608a,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2017-04-08 02:13:51 -0300,40,    AutoTypeAction* clone()
+72,keepassxreboot/keepassxc,36250f518075d1b348eb4b63193590be5f0c608a,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2017-04-08 02:13:51 -0300,41,    void accept(AutoTypeExecutor* executor)
+73,keepassxreboot/keepassxc,36250f518075d1b348eb4b63193590be5f0c608a,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2017-04-08 02:13:51 -0300,50,    AutoTypeAction* clone()
+74,keepassxreboot/keepassxc,36250f518075d1b348eb4b63193590be5f0c608a,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2017-04-08 02:13:51 -0300,51,    void accept(AutoTypeExecutor* executor)
+75,keepassxreboot/keepassxc,36250f518075d1b348eb4b63193590be5f0c608a,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2017-04-08 02:13:51 -0300,60,    AutoTypeAction* clone()
+76,keepassxreboot/keepassxc,36250f518075d1b348eb4b63193590be5f0c608a,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2017-04-08 02:13:51 -0300,61,    void accept(AutoTypeExecutor* executor)
+77,keepassxreboot/keepassxc,36250f518075d1b348eb4b63193590be5f0c608a,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2017-04-08 02:13:51 -0300,70,    AutoTypeAction* clone()
+78,keepassxreboot/keepassxc,36250f518075d1b348eb4b63193590be5f0c608a,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2017-04-08 02:13:51 -0300,71,    void accept(AutoTypeExecutor* executor)
+79,keepassxreboot/keepassxc,8324d03f0a015e62b6182843b4478226a5197090,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2018-03-31 16:01:30 -0400,43,    AutoTypeAction* clone()
+80,keepassxreboot/keepassxc,8324d03f0a015e62b6182843b4478226a5197090,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2018-03-31 16:01:30 -0400,44,    void accept(AutoTypeExecutor* executor)
+81,keepassxreboot/keepassxc,8324d03f0a015e62b6182843b4478226a5197090,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2018-03-31 16:01:30 -0400,53,    AutoTypeAction* clone()
+82,keepassxreboot/keepassxc,8324d03f0a015e62b6182843b4478226a5197090,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2018-03-31 16:01:30 -0400,54,    void accept(AutoTypeExecutor* executor)
+83,keepassxreboot/keepassxc,8324d03f0a015e62b6182843b4478226a5197090,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2018-03-31 16:01:30 -0400,63,    AutoTypeAction* clone()
+84,keepassxreboot/keepassxc,8324d03f0a015e62b6182843b4478226a5197090,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2018-03-31 16:01:30 -0400,64,    void accept(AutoTypeExecutor* executor)
+85,keepassxreboot/keepassxc,8324d03f0a015e62b6182843b4478226a5197090,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2018-03-31 16:01:30 -0400,73,    AutoTypeAction* clone()
+86,keepassxreboot/keepassxc,8324d03f0a015e62b6182843b4478226a5197090,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2018-03-31 16:01:30 -0400,74,    void accept(AutoTypeExecutor* executor)
+87,keepassxreboot/keepassxc,7a823e8dc7d2f149b51036dd918e66deef9affd9,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2018-10-31 14:19:01 +0100,,
+88,keepassxreboot/keepassxc,4d075077393ce7380214871b6ca47132fdee56ed,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2021-03-26 06:16:37 -0400,,
+89,keepassxreboot/keepassxc,8c9530e3ecff1e8c92702788c362e9fb1f99e23e,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2021-03-31 21:20:51 -0400,,
+90,keepassxreboot/keepassxc,8a7eb3695087c94f78b9c93676f6d36597f407c2,src/autotype/AutoTypeAction.cpp,"AutoTypeClearField::AutoTypeClearField()
+{
+}
+",2022-03-19 08:23:53 -0400,143,    AutoTypeMode(AutoTypeExecutor::Mode mode = AutoTypeExecutor::Mode::NORMAL)
+91,keepassxreboot/keepassxc,98a89e4f2c973683aef8f57eb527d3b7110d6287,src/gui/MainWindowAdaptor.cpp,"MainWindowAdaptor::~MainWindowAdaptor()
+{
+}
+",2018-01-25 23:48:58 +0100,32,"    Q_CLASSINFO(""D-Bus Interface"", ""org.keepassxc.MainWindow"")    ^"
