@@ -1,23 +1,13 @@
-,repo,origin_commit,file,code_context,commit_date,line_vuln,code_vuln
-0,arendst/tasmota,0ae067444ac0127e313c40d81e18a4d08e899c9e,lib_display/LiquidCrystal_I2C-1.1.3/LiquidCrystal_I2C.cpp,"LiquidCrystal_I2C::LiquidCrystal_I2C(uint8_t lcd_Addr,uint8_t lcd_cols,uint8_t lcd_rows)
+,Unnamed: 0,code_context,code_vuln,commit_date,file,line_vuln,origin_commit,repo
+0,0,"LiquidCrystal_I2C::LiquidCrystal_I2C(uint8_t lcd_Addr,uint8_t lcd_cols,uint8_t lcd_rows)
 {
   _Addr = lcd_Addr;
   _cols = lcd_cols;
   _rows = lcd_rows;
   _backlightval = LCD_NOBACKLIGHT;
 }
-",2020-10-25 13:59:04 +0100,47,"LiquidCrystal_I2C::LiquidCrystal_I2C(uint8_tlcd_Addr,uint8_tlcd_cols,uint8_tlcd_rows)"
-1,arendst/tasmota,c702cb17e05b61787bbeeb7cc6bc8d9b946e0c86,lib/Adafruit_SGP30-1.0.3/Adafruit_SGP30.cpp,"Adafruit_SGP30::Adafruit_SGP30() {
+","LiquidCrystal_I2C::LiquidCrystal_I2C(uint8_t lcd_Addr,uint8_t lcd_cols,uint8_t lcd_rows)",2018-10-26 17:13:17 +0200,lib\LiquidCrystal_I2C-1.1.3\LiquidCrystal_I2C.cpp,47.0,c2f9f5ddbef2bc8c1bbf189615e50fc398010e98,arendst/tasmota
+1,1,"Adafruit_SGP30::Adafruit_SGP30() {
 }
-",2019-07-05 13:44:24 +0200,44,Adafruit_SGP30::Adafruit_SGP30(){
-2,arendst/tasmota,e454c54e6dd0c1c31ae43bd53f0f35cf28bccb1e,lib/lib_display/LiquidCrystal_I2C-1.1.3/LiquidCrystal_I2C.cpp,"LiquidCrystal_I2C::LiquidCrystal_I2C(uint8_t lcd_Addr,uint8_t lcd_cols,uint8_t lcd_rows)
-{
-  _Addr = lcd_Addr;
-  _cols = lcd_cols;
-  _rows = lcd_rows;
-  _backlightval = LCD_NOBACKLIGHT;
-}
-",2020-10-26 12:51:06 +0000,47,"LiquidCrystal_I2C::LiquidCrystal_I2C(uint8_tlcd_Addr,uint8_tlcd_cols,uint8_tlcd_rows)"
-3,arendst/tasmota,615645e50e339a18eef574f92e5ac806091e1401,lib/Adafruit_SGP30-1.2.0/Adafruit_SGP30.cpp,"Adafruit_SGP30::Adafruit_SGP30() {
-}
-",2020-05-23 22:28:42 +0100,36,Adafruit_SGP30::Adafruit_SGP30(){}
+",Adafruit_SGP30::Adafruit_SGP30() {,2018-03-31 16:26:00 +0200,lib\Adafruit_SGP30-1.0.3\Adafruit_SGP30.cpp,44.0,67477b1f4ebe8d95f0601eb6f0b98a10eb51c5d8,arendst/tasmota
+2,2,,,2020-05-23 22:28:42 +0100,lib\Adafruit_SGP30-1.0.3\Adafruit_SGP30.cpp,,615645e50e339a18eef574f92e5ac806091e1401,arendst/tasmota

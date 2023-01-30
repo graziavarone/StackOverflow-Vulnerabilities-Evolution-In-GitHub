@@ -1,8 +1,0 @@
-,repo,origin_commit,file,code_context,commit_date,line_vuln,code_vuln
-0,facebookresearch/faiss,750d43f7f110c5d18841879c04b346e0a1767d08,faiss/IndexLSH.cpp,"    thresholds.clear();
- void IndexLSH::reset() {
-void IndexLSH::reset() {
-    codes.clear();
-    ntotal = 0;
-}
-",2020-08-04 17:16:58 +0200,,

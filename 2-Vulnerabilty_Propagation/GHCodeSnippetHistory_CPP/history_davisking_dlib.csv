@@ -1,5 +1,25 @@
-,repo,origin_commit,file,code_context,commit_date,line_vuln,code_vuln
-0,davisking/dlib,8808589dcdcf5d6a3b553f52d3422a3b1c9b6371,dlib/test/bridge.cpp,"        void perform_test (
+,Unnamed: 0,code_context,code_vuln,commit_date,file,line_vuln:,origin_commit,repo
+0,0.0,"        void perform_test (
+        )
+        {
+            dlog << LINFO << ""testing bridge, using local port number of "" << testing_port; 
+
+            print_spinner();
+            do_test1();
+            print_spinner();
+            do_test2();
+            print_spinner();
+            do_test3();
+            print_spinner();
+            do_test4();
+            print_spinner();
+            for (int i = 0; i < 5; ++i)
+                do_test5(i);
+            print_spinner();
+            do_test6();
+        }
+",void perform_test (,2011-05-14 14:48:50 +0000,dlib/test/bridge.cpp,232.0,f224398ea3dd95c1e3062175fb56da2b03058486,davisking/dlib
+1,1.0,"        void perform_test (
         )
         {
             dlog << LINFO << ""testing bridge, using local port number of "" << testing_port; 
@@ -19,100 +39,58 @@
             print_spinner();
             do_test6();
         }
-",2008-05-02 14:19:38 +0000,232,        void perform_test (             ^
-1,davisking/dlib,ba361d73abb06eda6a2a1bba397a680879610f0a,tools/python/src/object_detection.cpp,"    if (num_images != py::len(pyboxes))
-        throw dlib::error(""The length of the boxes list must match the length of the images list."");
-
-    // We never have any ignore boxes for this version of the API.
-    std::vector<std::vector<rectangle>> ignore(num_images), boxes(num_images);
-    dlib::array<numpy_image<rgb_pixel>> images(num_images);
-",2014-12-12 16:22:57 +0000,39,"        dlib::simple_object_detector& detector,                                      ^"
-2,davisking/dlib,ba361d73abb06eda6a2a1bba397a680879610f0a,tools/python/src/object_detection.cpp,"    if (num_images != py::len(pyboxes))
-        throw dlib::error(""The length of the boxes list must match the length of the images list."");
-
-    // We never have any ignore boxes for this version of the API.
-    std::vector<std::vector<rectangle>> ignore(num_images), boxes(num_images);
-    dlib::array<numpy_image<rgb_pixel>> images(num_images);
-",2014-12-12 16:22:57 +0000,133,        temp.push_back(d.cast<simple_object_detector_py>().detector)
-3,davisking/dlib,94254c450623fc6c9e57d41238a07e681fafe4dd,dlib/test/filtering.cpp,"        void perform_test (
+",void perform_test (,2011-05-14 17:06:18 +0000,dlib/test/bridge.cpp,231.0,2afaa28cbc0ed6cab7405faa60494e4449e68d69,davisking/dlib
+2,,"        void perform_test (
         )
         {
             test_rls_filter();
             test_kalman_filter();
         }
-",2014-12-12 16:22:57 +0000,156,        void perform_test (             ^
-4,davisking/dlib,94254c450623fc6c9e57d41238a07e681fafe4dd,dlib/test/filtering.cpp,"        void perform_test (
-        )
-        {
-            test_rls_filter();
-            test_kalman_filter();
-        }
-",2014-12-12 16:22:57 +0000,74,                filter_type temp
-5,davisking/dlib,94254c450623fc6c9e57d41238a07e681fafe4dd,dlib/test/filtering.cpp,"        void perform_test (
-        )
-        {
-            test_rls_filter();
-            test_kalman_filter();
-        }
-",2014-12-12 16:22:57 +0000,91,"        0,  0.3"
-6,davisking/dlib,94254c450623fc6c9e57d41238a07e681fafe4dd,dlib/test/filtering.cpp,"        void perform_test (
-        )
-        {
-            test_rls_filter();
-            test_kalman_filter();
-        }
-",2014-12-12 16:22:57 +0000,101,"        0, 0, 0, 0, 0, 1"
-7,davisking/dlib,94254c450623fc6c9e57d41238a07e681fafe4dd,dlib/test/filtering.cpp,"        void perform_test (
-        )
-        {
-            test_rls_filter();
-            test_kalman_filter();
-        }
-",2014-12-12 16:22:57 +0000,106,"        0, 1, 0, 0, 0, 0"
-8,davisking/dlib,484e8a3d7378cfb03e1b5da8860bf1d059ea2e11,dlib/test/iosockstream.cpp,"        void perform_test (
+",void perform_test (,2012-03-10 18:50:34 -0500,dlib/test/filtering.cpp,156.0,bc7a2971167226ca72d6285ca859ef531b4e5663,davisking/dlib
+3,,"        void perform_test (
         )
         {
             test1();
             test2();
         }
-",2014-12-12 16:22:57 +0000,171,        void perform_test (             ^
-9,davisking/dlib,898ad4df7062b3a2abf1ce74efb7d2ae0c96f947,dlib/test/parse.cpp,"        void perform_test (
+",void perform_test (,2012-11-17 16:19:44 -0500,dlib/test/iosockstream.cpp,159.0,da72b57608fdd5b7a7abd9b400e0d8ca4c085728,davisking/dlib
+4,,"        void perform_test (
         )
         {
             dotest1();
             dotest2();
         }
-",2014-12-12 16:22:57 +0000,220,        void perform_test (             ^
-10,davisking/dlib,35f117702b83267d5c09bc044241870968e07967,dlib/test/base64.cpp,"        void perform_test (
+",void perform_test (,2012-11-12 12:59:04 -0500,dlib/test/parse.cpp,209.0,c4dcd48e0ad818b66b406ac22f75ef5efbea6cdf,davisking/dlib
+5,,"        void perform_test (
         )
         {
             print_spinner();
             base64_kernel_test<base64>();
         }
-",2014-12-12 16:22:57 +0000,195,        void perform_test (             ^
-11,davisking/dlib,c1cb614de25ba8d2337b221d50d35f9767dbb754,dlib/test/pipe.cpp,"        void perform_test (
+",void perform_test (,2011-04-18 18:22:33 +0000,dlib/test/base64.cpp,195.0,35f117702b83267d5c09bc044241870968e07967,davisking/dlib
+6,,"        void perform_test (
         )
         {
             pipe_kernel_test<dlib::pipe<int> >();
 
             do_zero_size_test_with_timeouts();
         }
-",2014-12-12 16:22:57 +0000,677,        void perform_test (             ^
-12,davisking/dlib,cea4f73d3cccea84d7cd324cc64f7d011824b2da,dlib/test/rls.cpp,"        void perform_test (
+",void perform_test (,2013-02-01 19:32:56 -0500,dlib/test/pipe.cpp,677.0,175929496e35c8831f8f0f9d1fae836dd0e2ff9c,davisking/dlib
+7,,"        void perform_test (
         )
         {
             test_rls();
         }
-",2014-12-12 16:22:57 +0000,186,        void perform_test (             ^
-13,davisking/dlib,0a80fdd15c4552c769f52abe7fc262a9a51eb5c0,dlib/test/bayes_nets.cpp,"        void perform_test (
+",void perform_test (,2012-02-22 19:52:46 -0500,dlib/test/rls.cpp,156.0,565e63f282fbee3238d60c352773595031f95e70,davisking/dlib
+8,,"        void perform_test (
         )
         {
             bayes_nets_test();
         }
-",2014-12-12 16:22:57 +0000,400,        void perform_test (             ^
-14,davisking/dlib,33a192fc28b5fe3d2dd57cd8d021b615f483793c,dlib/test/md5.cpp,"        void perform_test (
+",void perform_test (,2008-05-02 14:19:38 +0000,dlib/test/bayes_nets.cpp,400.0,754da0ef3ceb598b2e708f1498f6d22c92b290d7,davisking/dlib
+9,,"        void perform_test (
         )
         {
             md5_test();
         }
-",2014-12-12 16:22:57 +0000,61,        void perform_test (             ^
+",void perform_test (,2008-05-02 14:19:38 +0000,dlib/test/md5.cpp,51.0,754da0ef3ceb598b2e708f1498f6d22c92b290d7,davisking/dlib

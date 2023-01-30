@@ -1,25 +1,35 @@
-,repo,origin_commit,file,code_context,commit_date,line_vuln,code_vuln
-0,microsoft/airsim,6efa9c3f0d39f21d16ab2b8c71a509432a4e2a43,MavLinkCom/src/impl/MavLinkTcpServerImpl.cpp,"MavLinkTcpServerImpl::MavLinkTcpServerImpl(const std::string& local_addr, int local_port)
-",2017-02-15 03:16:25 -0800,,
-1,microsoft/airsim,c23d0fc9c059abffa7c6c317c92c927218733bfa,MavLinkCom/src/impl/MavLinkTcpServerImpl.cpp,"MavLinkTcpServerImpl::MavLinkTcpServerImpl(const std::string& local_addr, int local_port) {
-",2017-02-17 22:46:33 -0200,,
-2,microsoft/airsim,aba1ac08187d43ba92aa51848e9560c19b428150,MavLinkCom/src/impl/MavLinkTcpServerImpl.cpp,"MavLinkTcpServerImpl::MavLinkTcpServerImpl(const std::string& local_addr, int local_port)
-MavLinkTcpServerImpl::MavLinkTcpServerImpl(const std::string& local_addr, int local_port)
+,code_context,code_vuln,commit_date,file,line_vuln:,origin_commit,repo
+0,"MavLinkTcpServerImpl::MavLinkTcpServerImpl(const std::string& local_addr, int local_port)
+{
+	local_address_ = local_addr;
+	local_port_ = local_port;
+	server_ = std::make_shared<TcpServer>(local_address_, local_port_);
+}
+",local_address_ = local_addr;,2017-02-14 18:14:48 -0800,MavLinkCom/src/impl/MavLinkTcpServerImpl.cpp,9.0,bf3dcf9b5b6a236b88cb590c5cf0e466d480b2ae,microsoft/airsim
+1,"MavLinkTcpServerImpl::MavLinkTcpServerImpl(const std::string& local_addr, int local_port) {
+    local_address_ = local_addr;
+    local_port_ = local_port;
+    server_ = std::make_shared<TcpServer>(local_address_, local_port_);
+}
+",local_address_ = local_addr;,2017-02-17 22:46:33 -0200,MavLinkCom/src/impl/MavLinkTcpServerImpl.cpp,11.0,c23d0fc9c059abffa7c6c317c92c927218733bfa,microsoft/airsim
+2,"MavLinkTcpServerImpl::MavLinkTcpServerImpl(const std::string& local_addr, int local_port)
+{
+	local_address_ = local_addr;
+	local_port_ = local_port;
+	server_ = std::make_shared<TcpServer>(local_address_, local_port_);
+}
+",local_address_ = local_addr;,2017-02-18 04:51:58 -0800,MavLinkCom/src/impl/MavLinkTcpServerImpl.cpp,12.0,aba1ac08187d43ba92aa51848e9560c19b428150,microsoft/airsim
+3,"MavLinkTcpServerImpl::MavLinkTcpServerImpl(const std::string& local_addr, int local_port)
 {
 	local_address_ = local_addr;
 	local_port_ = local_port;
 }
-",2017-02-18 04:51:58 -0800,,
-3,microsoft/airsim,1cb6c51f939e77c05caf55a3f36229a173ba5603,MavLinkCom/src/impl/MavLinkTcpServerImpl.cpp,"MavLinkTcpServerImpl::MavLinkTcpServerImpl(const std::string& local_addr, int local_port)
+
+",local_address_ = local_addr;,2017-03-06 00:19:22 -0800,MavLinkCom/src/impl/MavLinkTcpServerImpl.cpp,11.0,1cb6c51f939e77c05caf55a3f36229a173ba5603,microsoft/airsim
+4,"MavLinkTcpServerImpl::MavLinkTcpServerImpl(const std::string& local_addr, int local_port)
 {
-	local_address_ = local_addr;
-	local_port_ = local_port;
+    local_address_ = local_addr;
+    local_port_ = local_port;
 }
-",2017-03-06 00:19:22 -0800,,
-4,microsoft/airsim,0edf734254354f95d3e94255f7a7bceef7b1db25,MavLinkCom/src/impl/MavLinkTcpServerImpl.cpp,"MavLinkTcpServerImpl::MavLinkTcpServerImpl(const std::string& local_addr, int local_port)",2021-05-13 17:40:06 -0700,,
-5,microsoft/airsim,1bd363027932e1f612f2bf925bc4b77556affe53,MavLinkCom/src/impl/MavLinkTcpServerImpl.cpp,"MavLinkTcpServerImpl::MavLinkTcpServerImpl(const std::string& local_addr, int local_port)
-{
-	local_address_ = local_addr;
-	local_port_ = local_port;
-}
-",2021-05-23 12:41:05 +0300,,
+
+",local_address_ = local_addr;,2021-05-13 17:40:06 -0700,MavLinkCom/src/impl/MavLinkTcpServerImpl.cpp,11.0,0edf734254354f95d3e94255f7a7bceef7b1db25,microsoft/airsim
