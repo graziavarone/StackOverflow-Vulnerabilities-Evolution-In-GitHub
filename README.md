@@ -1,4 +1,4 @@
-# Better Safe than Sorry: The Impact of Copying&Pasting Vulnerable Code from Stack Overflow
+# Better Safe than Sorry: Investigating the Evolution of Vulnerable Code Snippets Copied from Stack Overflow
 GitHub repository for Master's Thesis.
 
 ## Summary
