@@ -58,3 +58,4 @@ To replicate our study, first of all, you will need Python 3 and Jupyter Noteboo
   - **3.3-Building GHCodeSnippetsHistory from SOTorrent.ipynb**
   - **4-Assessing fixes of vulnerabilities.ipynb**
   - **5-Quantitative Analysis.ipynb**
+  - **6-Qualitative Analysis.ipynb**
